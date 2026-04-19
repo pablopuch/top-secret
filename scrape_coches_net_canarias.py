@@ -157,8 +157,15 @@ def scrape_coches_net_canarias(max_paginas=5, pagina_inicio=1, resultados_previo
                 
                 # GUARDADO DE SEGURIDAD PROGRESIVO
                 if pagina % 5 == 0:
-                    with open("coches_net_canarias_seguridad.json", "w", encoding="utf-8") as f:
-                        json.dump(resultados, f, indent=4, ensure_ascii=False)
+                    try:
+                        with open("coches_net_canarias_seguridad.json", "w", encoding="utf-8") as f:
+                            json.dump(resultados, f, indent=4, ensure_ascii=False)
+                    except Exception:
+                        pass # Ignoramos si tu antivirus o un editor de texto bloquea temporalmente el archivo temporal
+                        
+                # Memoria mecánica automática (Rastreador)
+                with open("ultima_pagina_canarias.txt", "w", encoding="utf-8") as f:
+                    f.write(str(pagina))
                 
                 # Delay aleatorio para no ser agresivos y que nos pillen
                 time.sleep(3)
@@ -179,21 +186,41 @@ if __name__ == "__main__":
     
     # Trabajamos sobre un archivo totalmente independiente
     archivo_json = "coches_net_canarias.json"
+    tracker_file = "ultima_pagina_canarias.txt"
     inventario_previo = []
+    pagina_arranque = 1
     
-    # Carga de seguridad por si se detiene a medias
-    if os.path.exists(archivo_json):
+    # Memoria: Carga inteligente y reanudación automática
+    if os.path.exists(archivo_json) and os.path.exists(tracker_file):
         try:
             with open(archivo_json, "r", encoding="utf-8") as f:
                 inventario_previo = json.load(f)
-                print(f"♻️ Cargados {len(inventario_previo)} vehículos de la sesión anterior.")
+            
+            with open(tracker_file, "r", encoding="utf-8") as f:
+                ultima_pag_completada = int(f.read().strip())
+                # Si se cortó a medias, retomamos. Si ya terminó todo (407), empezamos de 0.
+                if ultima_pag_completada > 0 and ultima_pag_completada < 407:
+                    pagina_arranque = ultima_pag_completada + 1
+                    print(f"🔄 Reanudando AUTOMÁTICAMENTE desde la PÁGINA {pagina_arranque} (Hay {len(inventario_previo)} coches guardados de antes).")
+                else:
+                    inventario_previo = []
+                    
         except Exception:
-            print("⚠️ No se pudo cargar el archivo anterior, empezando de cero.")
+            print("⚠️ Historial no válido. Empezando de cero.")
+            inventario_previo = []
 
-    # Lanzar configurado para 407 páginas (Canarias), empezando en la 1 por defecto
-    inventario = scrape_coches_net_canarias(max_paginas=407, pagina_inicio=1, resultados_previos=inventario_previo) 
+    # Lanzar configurado para 407 páginas
+    inventario = scrape_coches_net_canarias(max_paginas=407, pagina_inicio=pagina_arranque, resultados_previos=inventario_previo) 
     
-    with open(archivo_json, "w", encoding="utf-8") as f:
-        json.dump(inventario, f, indent=4, ensure_ascii=False)
+    try:
+        with open(archivo_json, "w", encoding="utf-8") as f:
+            json.dump(inventario, f, indent=4, ensure_ascii=False)
+            
+        # Como hemos terminado con éxito, borramos la memoria para que el mes que viene empiece en la Pág 1 de nuevo.
+        if os.path.exists(tracker_file):
+            os.remove(tracker_file)
+            
+    except Exception as e:
+        print(f"💥 Error guardando final (El archivo puede estar abierto en otro programa): {e}")
         
     print(f"\n✅ Total final: {len(inventario)} vehículos de Canarias guardados en {archivo_json}")
