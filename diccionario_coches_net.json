@@ -1,0 +1,638 @@
+{
+  "ABARTH": {
+    "make_id": "1330",
+    "modelos": {}
+  },
+  "AIWAYS": {
+    "make_id": "1408",
+    "modelos": {}
+  },
+  "AIXAM": {
+    "make_id": "158",
+    "modelos": {}
+  },
+  "ALFA ROMEO": {
+    "make_id": "1",
+    "modelos": {}
+  },
+  "ALPINE": {
+    "make_id": "1377",
+    "modelos": {}
+  },
+  "ARO": {
+    "make_id": "238",
+    "modelos": {}
+  },
+  "ASIA": {
+    "make_id": "1326",
+    "modelos": {}
+  },
+  "ASIA MOTORS": {
+    "make_id": "2",
+    "modelos": {}
+  },
+  "ASTON MARTIN": {
+    "make_id": "3",
+    "modelos": {}
+  },
+  "AUDI": {
+    "make_id": "4",
+    "modelos": {}
+  },
+  "AUSTIN": {
+    "make_id": "111",
+    "modelos": {}
+  },
+  "AUVERLAND": {
+    "make_id": "1321",
+    "modelos": {}
+  },
+  "BAIC": {
+    "make_id": "1441",
+    "modelos": {}
+  },
+  "BELLIER": {
+    "make_id": "1331",
+    "modelos": {}
+  },
+  "BENTLEY": {
+    "make_id": "6",
+    "modelos": {}
+  },
+  "BERTONE": {
+    "make_id": "241",
+    "modelos": {}
+  },
+  "BESTUNE": {
+    "make_id": "1437",
+    "modelos": {}
+  },
+  "BMW": {
+    "make_id": "7",
+    "modelos": {}
+  },
+  "BUGATTI": {
+    "make_id": "1345",
+    "modelos": {}
+  },
+  "BUNKER-TRIKE": {
+    "make_id": "1332",
+    "modelos": {}
+  },
+  "BYD": {
+    "make_id": "1352",
+    "modelos": {}
+  },
+  "CADILLAC": {
+    "make_id": "8",
+    "modelos": {}
+  },
+  "CASALINI": {
+    "make_id": "1333",
+    "modelos": {}
+  },
+  "CENNTRO": {
+    "make_id": "1415",
+    "modelos": {}
+  },
+  "CHANGAN": {
+    "make_id": "1444",
+    "modelos": {}
+  },
+  "CHATENET": {
+    "make_id": "161",
+    "modelos": {}
+  },
+  "CHEVROLET": {
+    "make_id": "9",
+    "modelos": {}
+  },
+  "CHRYSLER": {
+    "make_id": "10",
+    "modelos": {}
+  },
+  "CITROEN": {
+    "make_id": "11",
+    "modelos": {}
+  },
+  "CORVETTE": {
+    "make_id": "1327",
+    "modelos": {}
+  },
+  "CUPRA": {
+    "make_id": "1400",
+    "modelos": {}
+  },
+  "DACIA": {
+    "make_id": "1011",
+    "modelos": {}
+  },
+  "DAEWOO": {
+    "make_id": "12",
+    "modelos": {}
+  },
+  "DAF": {
+    "make_id": "102",
+    "modelos": {}
+  },
+  "DAIHATSU": {
+    "make_id": "13",
+    "modelos": {}
+  },
+  "DAIMLER": {
+    "make_id": "145",
+    "modelos": {}
+  },
+  "DFSK": {
+    "make_id": "1351",
+    "modelos": {}
+  },
+  "DODGE": {
+    "make_id": "173",
+    "modelos": {}
+  },
+  "DONGFENG": {
+    "make_id": "1431",
+    "modelos": {}
+  },
+  "DR AUTOMOBILES": {
+    "make_id": "1401",
+    "modelos": {}
+  },
+  "DS": {
+    "make_id": "1358",
+    "modelos": {}
+  },
+  "DSK": {
+    "make_id": "1429",
+    "modelos": {}
+  },
+  "EBRO": {
+    "make_id": "210",
+    "modelos": {}
+  },
+  "ERAD": {
+    "make_id": "1334",
+    "modelos": {}
+  },
+  "ESTRIMA BIRO": {
+    "make_id": "1398",
+    "modelos": {}
+  },
+  "EVO": {
+    "make_id": "1410",
+    "modelos": {}
+  },
+  "EVUM": {
+    "make_id": "1416",
+    "modelos": {}
+  },
+  "FARIZON": {
+    "make_id": "1436",
+    "modelos": {}
+  },
+  "FERRARI": {
+    "make_id": "146",
+    "modelos": {}
+  },
+  "FIAT": {
+    "make_id": "14",
+    "modelos": {}
+  },
+  "FISKER": {
+    "make_id": "1383",
+    "modelos": {}
+  },
+  "FORD": {
+    "make_id": "15",
+    "modelos": {}
+  },
+  "FOTON": {
+    "make_id": "1430",
+    "modelos": {}
+  },
+  "FUSO": {
+    "make_id": "1397",
+    "modelos": {}
+  },
+  "GALLOPER": {
+    "make_id": "16",
+    "modelos": {}
+  },
+  "GME": {
+    "make_id": "191",
+    "modelos": {}
+  },
+  "GRECAV": {
+    "make_id": "1335",
+    "modelos": {}
+  },
+  "GREEN TOUR": {
+    "make_id": "1406",
+    "modelos": {}
+  },
+  "HERKO": {
+    "make_id": "1442",
+    "modelos": {}
+  },
+  "HONDA": {
+    "make_id": "69",
+    "modelos": {}
+  },
+  "HONGQI": {
+    "make_id": "1423",
+    "modelos": {}
+  },
+  "HUMMER": {
+    "make_id": "234",
+    "modelos": {}
+  },
+  "HYUNDAI": {
+    "make_id": "18",
+    "modelos": {}
+  },
+  "ICH-X": {
+    "make_id": "1438",
+    "modelos": {}
+  },
+  "INEOS": {
+    "make_id": "1409",
+    "modelos": {}
+  },
+  "INFINITI": {
+    "make_id": "1025",
+    "modelos": {}
+  },
+  "INNOCENTI": {
+    "make_id": "185",
+    "modelos": {}
+  },
+  "ISUZU": {
+    "make_id": "19",
+    "modelos": {}
+  },
+  "ITAL CAR": {
+    "make_id": "1336",
+    "modelos": {}
+  },
+  "IVECO": {
+    "make_id": "126",
+    "modelos": {}
+  },
+  "IVECO-PEGASO": {
+    "make_id": "103",
+    "modelos": {}
+  },
+  "JAECOO": {
+    "make_id": "1434",
+    "modelos": {}
+  },
+  "JAGUAR": {
+    "make_id": "20",
+    "modelos": {}
+  },
+  "JDM": {
+    "make_id": "159",
+    "modelos": {}
+  },
+  "JEEP": {
+    "make_id": "21",
+    "modelos": {}
+  },
+  "KGM": {
+    "make_id": "1427",
+    "modelos": {}
+  },
+  "KIA": {
+    "make_id": "22",
+    "modelos": {}
+  },
+  "KTM": {
+    "make_id": "1349",
+    "modelos": {}
+  },
+  "LADA": {
+    "make_id": "153",
+    "modelos": {}
+  },
+  "LAMBORGHINI": {
+    "make_id": "243",
+    "modelos": {}
+  },
+  "LANCIA": {
+    "make_id": "23",
+    "modelos": {}
+  },
+  "LAND-ROVER": {
+    "make_id": "24",
+    "modelos": {}
+  },
+  "LDV": {
+    "make_id": "128",
+    "modelos": {}
+  },
+  "LEAPMOTOR": {
+    "make_id": "1432",
+    "modelos": {}
+  },
+  "LEVC": {
+    "make_id": "1407",
+    "modelos": {}
+  },
+  "LEXUS": {
+    "make_id": "25",
+    "modelos": {}
+  },
+  "LIGIER": {
+    "make_id": "163",
+    "modelos": {}
+  },
+  "LIVAN": {
+    "make_id": "1439",
+    "modelos": {}
+  },
+  "LOTUS": {
+    "make_id": "147",
+    "modelos": {}
+  },
+  "LYNK & CO": {
+    "make_id": "1404",
+    "modelos": {}
+  },
+  "M-HERO": {
+    "make_id": "1428",
+    "modelos": {}
+  },
+  "MAHINDRA": {
+    "make_id": "246",
+    "modelos": {}
+  },
+  "MAN": {
+    "make_id": "104",
+    "modelos": {}
+  },
+  "MASERATI": {
+    "make_id": "26",
+    "modelos": {}
+  },
+  "MAXUS": {
+    "make_id": "1403",
+    "modelos": {}
+  },
+  "MAYBACH": {
+    "make_id": "1323",
+    "modelos": {}
+  },
+  "MAZDA": {
+    "make_id": "27",
+    "modelos": {}
+  },
+  "MCLAREN": {
+    "make_id": "1347",
+    "modelos": {}
+  },
+  "MEGA": {
+    "make_id": "1337",
+    "modelos": {}
+  },
+  "MELEX": {
+    "make_id": "1338",
+    "modelos": {}
+  },
+  "MERCEDES-BENZ": {
+    "make_id": "28",
+    "modelos": {}
+  },
+  "MG": {
+    "make_id": "29",
+    "modelos": {}
+  },
+  "MICRO": {
+    "make_id": "1433",
+    "modelos": {}
+  },
+  "MICROCAR": {
+    "make_id": "162",
+    "modelos": {}
+  },
+  "MINI": {
+    "make_id": "222",
+    "modelos": {}
+  },
+  "MITSUBISHI": {
+    "make_id": "30",
+    "modelos": {}
+  },
+  "MOBILIZE": {
+    "make_id": "1440",
+    "modelos": {}
+  },
+  "MORGAN": {
+    "make_id": "149",
+    "modelos": {}
+  },
+  "MW MOTORS": {
+    "make_id": "1419",
+    "modelos": {}
+  },
+  "NEXTEM": {
+    "make_id": "1417",
+    "modelos": {}
+  },
+  "NISSAN": {
+    "make_id": "31",
+    "modelos": {}
+  },
+  "OMODA": {
+    "make_id": "1420",
+    "modelos": {}
+  },
+  "OPEL": {
+    "make_id": "32",
+    "modelos": {}
+  },
+  "PEUGEOT": {
+    "make_id": "33",
+    "modelos": {}
+  },
+  "PGO SCOOTERS": {
+    "make_id": "1339",
+    "modelos": {}
+  },
+  "PIAGGIO": {
+    "make_id": "87",
+    "modelos": {}
+  },
+  "POLARIS": {
+    "make_id": "1340",
+    "modelos": {}
+  },
+  "POLESTAR": {
+    "make_id": "1402",
+    "modelos": {}
+  },
+  "PONTIAC": {
+    "make_id": "112",
+    "modelos": {}
+  },
+  "PORSCHE": {
+    "make_id": "34",
+    "modelos": {}
+  },
+  "QOROS": {
+    "make_id": "1348",
+    "modelos": {}
+  },
+  "QUOVIS": {
+    "make_id": "1341",
+    "modelos": {}
+  },
+  "RAM": {
+    "make_id": "1372",
+    "modelos": {}
+  },
+  "RENAULT": {
+    "make_id": "35",
+    "modelos": {}
+  },
+  "RENAULT V.I.": {
+    "make_id": "1329",
+    "modelos": {}
+  },
+  "ROLLS-ROYCE": {
+    "make_id": "36",
+    "modelos": {}
+  },
+  "ROVER": {
+    "make_id": "37",
+    "modelos": {}
+  },
+  "SAAB": {
+    "make_id": "38",
+    "modelos": {}
+  },
+  "SAIC": {
+    "make_id": "1399",
+    "modelos": {}
+  },
+  "SANTANA": {
+    "make_id": "1328",
+    "modelos": {}
+  },
+  "SEAT": {
+    "make_id": "39",
+    "modelos": {}
+  },
+  "SERES": {
+    "make_id": "1422",
+    "modelos": {}
+  },
+  "SHINERAY": {
+    "make_id": "1443",
+    "modelos": {}
+  },
+  "SKODA": {
+    "make_id": "40",
+    "modelos": {}
+  },
+  "SKYWELL": {
+    "make_id": "1425",
+    "modelos": {}
+  },
+  "SMART": {
+    "make_id": "41",
+    "modelos": {}
+  },
+  "SPORTEQUIPE": {
+    "make_id": "1446",
+    "modelos": {}
+  },
+  "SSANGYONG": {
+    "make_id": "42",
+    "modelos": {}
+  },
+  "SUBARU": {
+    "make_id": "43",
+    "modelos": {}
+  },
+  "SUZUKI": {
+    "make_id": "44",
+    "modelos": {}
+  },
+  "SWM": {
+    "make_id": "1411",
+    "modelos": {}
+  },
+  "TALBOT": {
+    "make_id": "156",
+    "modelos": {}
+  },
+  "TASSO": {
+    "make_id": "1342",
+    "modelos": {}
+  },
+  "TATA": {
+    "make_id": "45",
+    "modelos": {}
+  },
+  "TESLA": {
+    "make_id": "1354",
+    "modelos": {}
+  },
+  "TIGER": {
+    "make_id": "1445",
+    "modelos": {}
+  },
+  "TOYOTA": {
+    "make_id": "46",
+    "modelos": {}
+  },
+  "TWIKE": {
+    "make_id": "1350",
+    "modelos": {}
+  },
+  "UMM": {
+    "make_id": "1324",
+    "modelos": {}
+  },
+  "VAZ": {
+    "make_id": "1325",
+    "modelos": {}
+  },
+  "VIDI": {
+    "make_id": "1343",
+    "modelos": {}
+  },
+  "VOLKSWAGEN": {
+    "make_id": "47",
+    "modelos": {}
+  },
+  "VOLVO": {
+    "make_id": "48",
+    "modelos": {}
+  },
+  "VOYAH": {
+    "make_id": "1426",
+    "modelos": {}
+  },
+  "WARTBURG": {
+    "make_id": "186",
+    "modelos": {}
+  },
+  "XPENG": {
+    "make_id": "1435",
+    "modelos": {}
+  },
+  "YUDO": {
+    "make_id": "1421",
+    "modelos": {}
+  },
+  "ZEST": {
+    "make_id": "1344",
+    "modelos": {}
+  },
+  "ZHIDOU": {
+    "make_id": "1418",
+    "modelos": {}
+  }
+}
