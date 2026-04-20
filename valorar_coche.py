@@ -89,7 +89,7 @@ def fmt_tiempo(segundos):
     return f"{secs}s"
 
 
-def construir_url(make_id, model_id, anio=None, km_max=None, tolerancia=1, pagina=1):
+def construir_url(make_id, model_id, anio_min=None, anio_max=None, km_max=None, pagina=1):
     """Genera URL de búsqueda con IDs reales de coches.net y filtros de año/km."""
     params = {
         "MakeIds[0]": make_id,
@@ -97,9 +97,10 @@ def construir_url(make_id, model_id, anio=None, km_max=None, tolerancia=1, pagin
         "hasPhoto": "false",
         "wwa": "false",
     }
-    if anio:
-        params["MinYear"] = anio - tolerancia
-        params["MaxYear"] = anio + tolerancia
+    if anio_min:
+        params["MinYear"] = anio_min
+    if anio_max:
+        params["MaxYear"] = anio_max
     if km_max:
         params["MaxKms"] = km_max
     if pagina > 1:
@@ -188,17 +189,19 @@ def filtrar_por_titulo(resultados, marca, modelo):
     return filtrados
 
 
-def filtrar_resultados(resultados, anio_objetivo=None, km_max=None, tolerancia_anio=1):
+def filtrar_resultados(resultados, anio_min=None, anio_max=None, km_max=None):
     filtrados = []
     for r in resultados:
         if r["precio"] is None:
             continue
-        if anio_objetivo:
+        if anio_min or anio_max:
             try:
                 anio_coche = int(r["anio"]) if r["anio"] else 0
             except ValueError:
                 continue
-            if abs(anio_coche - anio_objetivo) > tolerancia_anio:
+            if anio_min and anio_coche < anio_min:
+                continue
+            if anio_max and anio_coche > anio_max:
                 continue
         if km_max and r["km"] is not None and r["km"] > km_max:
             continue
@@ -235,8 +238,8 @@ def calcular_estadisticas(resultados):
     }
 
 
-def scrape_valoracion(marca, modelo, anio=None, km_max=None, max_paginas=20,
-                      tolerancia_anio=1, make_id=None, model_id=None):
+def scrape_valoracion(marca, modelo, anio_min=None, anio_max=None, km_max=None, max_paginas=20,
+                      make_id=None, model_id=None):
     todos_resultados = []
     tiempos_peticion = []
 
@@ -275,13 +278,17 @@ def scrape_valoracion(marca, modelo, anio=None, km_max=None, max_paginas=20,
                 browser.close()
                 return None
 
-        url_inicio = construir_url(make_id, model_id, anio, km_max, tolerancia_anio)
+        url_inicio = construir_url(make_id, model_id, anio_min, anio_max, km_max)
 
         print(f"\n{'='*60}")
         print(f"  VALORACION DE MERCADO - coches.net")
         print(f"  Marca: {marca.upper()} (ID:{make_id})  |  Modelo: {modelo.upper()} (ID:{model_id})")
-        if anio:
-            print(f"  Año: {anio - tolerancia_anio} - {anio + tolerancia_anio}")
+        if anio_min and anio_max:
+            print(f"  Año: {anio_min} - {anio_max}")
+        elif anio_min:
+            print(f"  Año: Desde {anio_min}")
+        elif anio_max:
+            print(f"  Año: Hasta {anio_max}")
         if km_max:
             print(f"  Km máximo: {km_max:,} km")
         print(f"  URL: {url_inicio}")
@@ -303,7 +310,7 @@ def scrape_valoracion(marca, modelo, anio=None, km_max=None, max_paginas=20,
                 t_req = time.time()
 
                 if pagina > 1:
-                    url_pagina = construir_url(make_id, model_id, anio, km_max, tolerancia_anio, pagina)
+                    url_pagina = construir_url(make_id, model_id, anio_min, anio_max, km_max, pagina)
                     try:
                         page.goto(url_pagina, wait_until="domcontentloaded", timeout=60000)
                     except Exception:
@@ -351,7 +358,7 @@ def scrape_valoracion(marca, modelo, anio=None, km_max=None, max_paginas=20,
     todos_resultados = filtrar_por_titulo(todos_resultados, marca, modelo)
 
     # --- Filtro por año/km ---
-    filtrados = filtrar_resultados(todos_resultados, anio, km_max, tolerancia_anio)
+    filtrados = filtrar_resultados(todos_resultados, anio_min, anio_max, km_max)
 
     stats = calcular_estadisticas(filtrados)
 
@@ -370,7 +377,7 @@ def scrape_valoracion(marca, modelo, anio=None, km_max=None, max_paginas=20,
         "busqueda": {
             "marca": marca, "modelo": modelo,
             "make_id": make_id, "model_id": model_id,
-            "anio_objetivo": anio, "tolerancia_anio": tolerancia_anio,
+            "anio_min": anio_min, "anio_max": anio_max,
             "km_max": km_max,
         },
         "resultados_brutos": len(todos_resultados),
@@ -390,10 +397,14 @@ def imprimir_informe(datos):
     print(f"  INFORME DE VALORACION")
     print(f"{'='*60}")
     print(f"  {b['marca'].upper()} {b['modelo'].upper()}", end="")
-    if b["anio_objetivo"]:
-        print(f" | Año {b['anio_objetivo'] - b['tolerancia_anio']}-{b['anio_objetivo'] + b['tolerancia_anio']}", end="")
+    if b.get("anio_min") and b.get("anio_max"):
+        print(f" | Año {b['anio_min']}-{b['anio_max']}", end="")
+    elif b.get("anio_min"):
+        print(f" | Año desde {b['anio_min']}", end="")
+    elif b.get("anio_max"):
+        print(f" | Año hasta {b['anio_max']}", end="")
     if b["km_max"]:
-        print(f" | ≤{b['km_max']:,} km", end="")
+        print(f" | <={b['km_max']:,} km", end="")
     print()
 
     print(f"\n  Anuncios del modelo:  {datos['resultados_brutos']}")
@@ -424,14 +435,14 @@ def imprimir_informe(datos):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Valorar un coche en coches.net",
-        epilog="Ejemplo: python valorar_coche.py seat leon --anio 2019 --km 100000 --make-id 39 --model-id 410"
+        epilog="Ejemplo: python valorar_coche.py seat leon --anio-min 2019 --km 100000 --make-id 39 --model-id 410"
     )
     parser.add_argument("marca", help="Marca (ej: seat, volkswagen, bmw)")
     parser.add_argument("modelo", help="Modelo (ej: leon, golf, serie-3)")
-    parser.add_argument("--anio", type=int, default=None, help="Año objetivo")
+    parser.add_argument("--anio-min", type=int, default=None, help="Año mínimo (desde)")
+    parser.add_argument("--anio-max", type=int, default=None, help="Año máximo (hasta)")
     parser.add_argument("--km", type=int, default=None, help="Kilómetros máximos")
     parser.add_argument("--paginas", type=int, default=20, help="Máximo de páginas (default: 20)")
-    parser.add_argument("--tolerancia", type=int, default=1, help="Tolerancia de años ±N (default: 1)")
     parser.add_argument("--make-id", type=int, default=None, help="ID interno de la marca en coches.net (ej: 39=Seat)")
     parser.add_argument("--model-id", type=int, default=None, help="ID interno del modelo en coches.net (ej: 410=León)")
     args = parser.parse_args()
@@ -439,10 +450,10 @@ if __name__ == "__main__":
     datos = scrape_valoracion(
         marca=args.marca,
         modelo=args.modelo,
-        anio=args.anio,
+        anio_min=args.anio_min,
+        anio_max=args.anio_max,
         km_max=args.km,
         max_paginas=args.paginas,
-        tolerancia_anio=args.tolerancia,
         make_id=args.make_id,
         model_id=args.model_id,
     )
