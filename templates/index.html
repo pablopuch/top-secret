@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Estudio de Mercado - Coches Segunda Mano</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<style>
+  :root {
+    --bg: #0f1117; --card: #1a1d27; --border: #2a2d3a;
+    --accent: #6c5ce7; --accent2: #a29bfe;
+    --green: #00b894; --red: #e17055; --yellow: #fdcb6e;
+    --blue: #0984e3; --orange: #e17055; --pink: #fd79a8; --teal: #00cec9;
+    --text: #dfe6e9; --muted: #636e72; --white: #fff;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:'Segoe UI',system-ui,sans-serif; background:var(--bg); color:var(--text); min-height:100vh; }
+  .container { max-width:1100px; margin:0 auto; padding:24px 16px; }
+
+  header { text-align:center; padding:28px 0 20px; }
+  header h1 { font-size:1.8rem; font-weight:700; background:linear-gradient(135deg,var(--accent),var(--accent2)); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+  header p { color:var(--muted); margin-top:4px; font-size:0.85rem; }
+
+  .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:24px; margin-bottom:20px; }
+  .card h2 { font-size:0.8rem; font-weight:600; margin-bottom:14px; color:var(--accent2); text-transform:uppercase; letter-spacing:.5px; }
+
+  .grid-2 { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+  .grid-3 { display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px; }
+  .grid-4 { display:grid; grid-template-columns:1fr 1fr 1fr 1fr; gap:12px; }
+  .full { grid-column:1/-1; }
+
+  label { display:block; font-size:.72rem; color:var(--muted); margin-bottom:3px; text-transform:uppercase; letter-spacing:.5px; }
+  select, input[type="number"] {
+    width:100%; padding:9px 11px; background:var(--bg); border:1px solid var(--border);
+    border-radius:8px; color:var(--text); font-size:.88rem; outline:none; transition:border-color .2s;
+  }
+  select:focus, input:focus { border-color:var(--accent); }
+  select { cursor:pointer; }
+
+  .fuentes-grid { display:flex; flex-wrap:wrap; gap:8px; }
+  .fuente-check { display:flex; align-items:center; gap:6px; padding:8px 14px; background:var(--bg); border:1px solid var(--border); border-radius:8px; cursor:pointer; font-size:.85rem; transition:all .2s; }
+  .fuente-check:has(input:checked) { border-color:var(--accent); background:rgba(108,92,231,.12); }
+  .fuente-check input { accent-color:var(--accent); }
+
+  .btn { width:100%; padding:14px; background:linear-gradient(135deg,var(--accent),#5f3dc4); color:var(--white); border:none; border-radius:10px; font-size:1rem; font-weight:600; cursor:pointer; transition:opacity .2s,transform .1s; margin-top:8px; }
+  .btn:hover { opacity:.9; }
+  .btn:active { transform:scale(.98); }
+  .btn:disabled { opacity:.4; cursor:not-allowed; }
+
+  .btn-secondary { background:linear-gradient(135deg,var(--teal),var(--blue)); margin-top:12px; }
+
+  #status { text-align:center; padding:14px; color:var(--muted); font-size:.88rem; }
+  #status.loading { color:var(--yellow); }
+  #status.error { color:var(--red); }
+  .spinner { display:inline-block; width:14px; height:14px; border:2px solid var(--yellow); border-top-color:transparent; border-radius:50%; animation:spin .8s linear infinite; vertical-align:middle; margin-right:6px; }
+  @keyframes spin { to { transform:rotate(360deg); } }
+
+  .hidden { display:none !important; }
+
+  .stat-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(130px,1fr)); gap:10px; }
+  .stat-box { background:var(--bg); border-radius:10px; padding:14px; text-align:center; }
+  .stat-box .value { font-size:1.4rem; font-weight:700; color:var(--white); }
+  .stat-box .value.green { color:var(--green); }
+  .stat-box .value.blue { color:var(--blue); }
+  .stat-box .label { font-size:.68rem; color:var(--muted); text-transform:uppercase; letter-spacing:.5px; margin-top:3px; }
+
+  .fuente-tag { display:inline-block; padding:3px 10px; border-radius:12px; font-size:.72rem; font-weight:600; margin:2px; }
+  .fuente-tag.coches-net { background:rgba(9,132,227,.15); color:var(--blue); }
+  .fuente-tag.flexicar { background:rgba(0,206,201,.15); color:var(--teal); }
+  .fuente-tag.ocasionplus { background:rgba(253,121,168,.15); color:var(--pink); }
+  .fuente-tag.domingo-alonso { background:rgba(225,112,85,.15); color:var(--orange); }
+
+  table { width:100%; border-collapse:collapse; margin-top:8px; }
+  th { text-align:left; font-size:.7rem; color:var(--muted); text-transform:uppercase; letter-spacing:.5px; padding:8px 10px; border-bottom:1px solid var(--border); }
+  td { padding:9px 10px; border-bottom:1px solid var(--border); font-size:.88rem; }
+  tr:last-child td { border-bottom:none; }
+  .num { text-align:right; font-variant-numeric:tabular-nums; }
+
+  .bar-container { height:6px; background:var(--bg); border-radius:3px; overflow:hidden; margin-top:4px; }
+  .bar { height:100%; border-radius:3px; transition:width .5s; }
+
+  .chart-container { position:relative; height:300px; margin-top:12px; }
+
+  .tabs { display:flex; gap:4px; margin-bottom:16px; }
+  .tab { padding:8px 18px; border-radius:8px 8px 0 0; background:var(--bg); border:1px solid var(--border); border-bottom:none; color:var(--muted); cursor:pointer; font-size:.82rem; font-weight:600; transition:all .2s; }
+  .tab.active { background:var(--card); color:var(--accent2); border-color:var(--accent); }
+
+  .db-badge { display:inline-block; padding:2px 8px; border-radius:10px; font-size:.7rem; font-weight:600; }
+  .db-badge.ok { background:rgba(0,184,148,.15); color:var(--green); }
+  .db-badge.off { background:rgba(99,110,114,.15); color:var(--muted); }
+
+  @media(max-width:700px) {
+    .grid-2,.grid-3,.grid-4 { grid-template-columns:1fr; }
+    .stat-grid { grid-template-columns:repeat(2,1fr); }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>Estudio de Mercado</h1>
+    <p>Coches de segunda mano — Multi-fuente <span id="dbBadge" class="db-badge off">BD offline</span></p>
+  </header>
+
+  <div class="card">
+    <h2>Vehículo</h2>
+    <div class="grid-2">
+      <div><label>Marca</label><select id="marca"><option value="">Cargando...</option></select></div>
+      <div><label>Modelo</label><select id="modelo"><option value="">Selecciona marca</option></select></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Filtros</h2>
+    <div class="grid-4">
+      <div><label>Año desde</label><input type="number" id="anio_min" placeholder="2019" min="1990" max="2026"></div>
+      <div><label>Año hasta</label><input type="number" id="anio_max" placeholder="2025" min="1990" max="2026"></div>
+      <div><label>Km mínimo</label><input type="number" id="km_min" placeholder="0" step="5000"></div>
+      <div><label>Km máximo</label><input type="number" id="km_max" placeholder="100000" step="5000"></div>
+    </div>
+    <div class="grid-3" style="margin-top:12px">
+      <div>
+        <label>Combustible</label>
+        <select id="combustible">
+          <option value="">Todos</option>
+          <option value="Gasolina">Gasolina</option>
+          <option value="Diésel">Diésel</option>
+          <option value="Eléctrico">Eléctrico</option>
+          <option value="Híbrido">Híbrido</option>
+          <option value="GLP">GLP</option>
+        </select>
+      </div>
+      <div>
+        <label>Transmisión</label>
+        <select id="transmision">
+          <option value="">Todas</option>
+          <option value="Automático">Automático</option>
+          <option value="Manual">Manual</option>
+        </select>
+      </div>
+      <div>
+        <label>Provincia (coches.net)</label>
+        <select id="provincia"><option value="">Toda España</option></select>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Fuentes y ubicación</h2>
+    <div class="fuentes-grid" id="fuentesGrid">
+      <label class="fuente-check"><input type="checkbox" value="coches.net" checked> coches.net</label>
+      <label class="fuente-check"><input type="checkbox" value="flexicar" checked> Flexicar</label>
+      <label class="fuente-check"><input type="checkbox" value="ocasionplus" checked> OcasionPlus</label>
+      <label class="fuente-check"><input type="checkbox" value="domingo_alonso" checked> Domingo Alonso</label>
+    </div>
+    <div style="margin-top:12px">
+      <label class="fuente-check" style="border-color:var(--yellow);background:rgba(253,203,110,.08)">
+        <input type="checkbox" id="soloCanarias" checked> Solo Canarias (IGIC)
+        <span style="font-size:.72rem;color:var(--muted);margin-left:6px">Flexicar: Gran Canaria · OcasionPlus: market=canarias · Domingo Alonso: todo · coches.net: Las Palmas + Tenerife</span>
+      </label>
+    </div>
+  </div>
+
+  <button class="btn" id="btnBuscar" onclick="buscarMulti()">Buscar en todas las fuentes</button>
+  <div id="status"></div>
+
+  <div id="results" class="hidden">
+
+    <div class="card">
+      <h2>Resumen de mercado</h2>
+      <div class="stat-grid" id="statsGrid"></div>
+    </div>
+
+    <div class="card">
+      <h2>Resultados por fuente</h2>
+      <div id="fuentesResumen"></div>
+    </div>
+
+    <div class="card">
+      <h2>Precio por año de matriculación</h2>
+      <div class="chart-container"><canvas id="chartAnio"></canvas></div>
+      <table><thead><tr><th>Año</th><th class="num">Cantidad</th><th class="num">Precio medio</th><th class="num">Mediana</th><th>Distribución</th></tr></thead>
+      <tbody id="tablaAnios"></tbody></table>
+    </div>
+
+    <div class="card">
+      <h2>Comparativa por fuente</h2>
+      <div class="chart-container"><canvas id="chartFuentes"></canvas></div>
+    </div>
+
+  </div>
+
+  <div id="historialSection" class="hidden">
+    <div class="card">
+      <h2>Historial de búsquedas</h2>
+      <table><thead><tr><th>Fecha</th><th>Marca</th><th>Modelo</th><th class="num">Resultados</th><th class="num">Precio medio</th></tr></thead>
+      <tbody id="tablaHistorial"></tbody></table>
+    </div>
+  </div>
+</div>
+
+<script>
+const $=id=>document.getElementById(id);
+let chartAnioInst=null, chartFuentesInst=null;
+
+const COLORES_FUENTE = {
+  'coches.net': '#0984e3',
+  'Flexicar': '#00cec9', 'flexicar': '#00cec9',
+  'OcasionPlus': '#fd79a8', 'ocasionplus': '#fd79a8',
+  'Domingo Alonso': '#e17055', 'domingo_alonso': '#e17055',
+};
+
+async function cargarMarcas() {
+  const res = await fetch('/api/marcas');
+  const marcas = await res.json();
+  const sel=$('marca');
+  sel.innerHTML='<option value="">-- Selecciona marca --</option>';
+  marcas.forEach(m => {
+    sel.innerHTML+=`<option value="${m.make_id}" data-nombre="${m.nombre}">${m.nombre}</option>`;
+  });
+}
+
+async function cargarModelos() {
+  const makeId=$('marca').value;
+  const sel=$('modelo');
+  if(!makeId){sel.innerHTML='<option value="">Selecciona marca</option>';return;}
+  sel.innerHTML='<option value="">Cargando...</option>';
+  const res=await fetch(`/api/modelos/${makeId}`);
+  const modelos=await res.json();
+  sel.innerHTML='<option value="">-- Selecciona modelo --</option>';
+  modelos.forEach(m => {
+    sel.innerHTML+=`<option value="${m.model_id}" data-nombre="${m.nombre}">${m.nombre}</option>`;
+  });
+}
+
+async function cargarProvincias() {
+  const res=await fetch('/api/provincias');
+  const comunidades=await res.json();
+  const sel=$('provincia');
+  sel.innerHTML='<option value="">Toda España</option>';
+  comunidades.forEach(c => {
+    const group=document.createElement('optgroup');
+    group.label=c.nombre;
+    const optCom=document.createElement('option');
+    optCom.value=c.id;
+    optCom.textContent=`${c.nombre} (toda)`;
+    group.appendChild(optCom);
+    c.provincias.forEach(p => {
+      const opt=document.createElement('option');
+      opt.value=p.id;
+      opt.textContent=p.nombre;
+      group.appendChild(opt);
+    });
+    sel.appendChild(group);
+  });
+  sel.value='35|38';
+}
+
+async function checkDB() {
+  try {
+    const res=await fetch('/api/db_status');
+    const data=await res.json();
+    const badge=$('dbBadge');
+    if(data.disponible){badge.className='db-badge ok';badge.textContent='BD conectada';}
+    else{badge.className='db-badge off';badge.textContent='BD offline';}
+  }catch(e){}
+}
+
+$('marca').addEventListener('change', cargarModelos);
+
+function fmt(n){ return n!=null? n.toLocaleString('es-ES')+' €':'s/d'; }
+
+function bloquearFormulario(b) {
+  document.querySelectorAll('select,input,.btn').forEach(el => {
+    el.disabled=b;
+    el.style.opacity=b?'0.5':'';
+  });
+}
+
+function getFuentesSeleccionadas() {
+  return Array.from(document.querySelectorAll('#fuentesGrid input:checked')).map(c=>c.value);
+}
+
+function fuenteTag(nombre) {
+  const cls = nombre.toLowerCase().replace(/[\s.]/g,'-');
+  return `<span class="fuente-tag ${cls}">${nombre}</span>`;
+}
+
+async function buscarMulti() {
+  const marcaSel=$('marca'), modeloSel=$('modelo');
+  if(!marcaSel.value||!modeloSel.value){alert('Selecciona marca y modelo');return;}
+  const fuentes=getFuentesSeleccionadas();
+  if(!fuentes.length){alert('Selecciona al menos una fuente');return;}
+
+  const marcaNombre=marcaSel.options[marcaSel.selectedIndex].dataset.nombre;
+  const modeloNombre=modeloSel.options[modeloSel.selectedIndex].dataset.nombre;
+
+  const soloCanarias = $('soloCanarias').checked;
+  const body={
+    marca:marcaNombre, modelo:modeloNombre,
+    make_id:marcaSel.value, model_id:modeloSel.value,
+    fuentes:fuentes,
+    anio_min:$('anio_min').value||null,
+    anio_max:$('anio_max').value||null,
+    km_min:$('km_min').value||null,
+    km_max:$('km_max').value||null,
+    combustible:$('combustible').value||'',
+    transmision:$('transmision').value||'',
+    provincias: soloCanarias ? '35|38' : ($('provincia').value||null),
+    solo_canarias: soloCanarias,
+  };
+
+  bloquearFormulario(true);
+  $('results').classList.add('hidden');
+  $('status').className='loading';
+  $('status').innerHTML='<span class="spinner"></span> Iniciando búsqueda multi-fuente...';
+
+  const res=await fetch('/api/buscar',{
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
+    body:JSON.stringify(body),
+  });
+
+  if(!res.ok){
+    const err=await res.json();
+    $('status').className='error';
+    $('status').textContent=err.error||'Error al iniciar';
+    bloquearFormulario(false);
+    return;
+  }
+  pollEstado();
+}
+
+async function pollEstado() {
+  const res=await fetch('/api/estado');
+  const data=await res.json();
+
+  if(data.error){
+    $('status').className='error';
+    $('status').textContent='Error: '+data.error;
+    bloquearFormulario(false);
+    return;
+  }
+  if(data.activa){
+    $('status').className='loading';
+    $('status').innerHTML=`<span class="spinner"></span> ${data.progreso}`;
+    setTimeout(pollEstado,2000);
+    return;
+  }
+  if(data.resultado){
+    $('status').className='';
+    $('status').textContent='';
+    mostrarResultados(data.resultado);
+    bloquearFormulario(false);
+  }
+}
+
+function mostrarResultados(r) {
+  const em=r.estudio_mercado||{};
+  if(!em.total_vehiculos){
+    $('status').className='error';
+    $('status').textContent='Sin datos suficientes.';
+    bloquearFormulario(false);
+    return;
+  }
+
+  $('statsGrid').innerHTML=`
+    <div class="stat-box"><div class="value green">${fmt(em.precio_mediana_global)}</div><div class="label">Mediana</div></div>
+    <div class="stat-box"><div class="value">${fmt(em.precio_medio_global)}</div><div class="label">Precio medio</div></div>
+    <div class="stat-box"><div class="value">${fmt(em.precio_min_global)}</div><div class="label">Mínimo</div></div>
+    <div class="stat-box"><div class="value">${fmt(em.precio_max_global)}</div><div class="label">Máximo</div></div>
+    <div class="stat-box"><div class="value blue">${em.total_vehiculos}</div><div class="label">Total vehículos</div></div>
+    <div class="stat-box"><div class="value">${Object.keys(r.por_fuente||{}).length}</div><div class="label">Fuentes</div></div>
+  `;
+
+  // Resumen por fuente
+  let fhtml='<div class="stat-grid" style="margin-top:8px">';
+  const rpf=em.resumen_por_fuente||{};
+  for(const[fuente,data] of Object.entries(rpf)){
+    fhtml+=`<div class="stat-box">
+      ${fuenteTag(fuente)}
+      <div class="value" style="font-size:1.1rem;margin-top:6px">${fmt(data.precio_mediana)}</div>
+      <div class="label">${data.cantidad} vehículos · media ${fmt(data.precio_medio)}</div>
+    </div>`;
+  }
+  if(r.errores&&Object.keys(r.errores).length){
+    for(const[fuente,err] of Object.entries(r.errores)){
+      fhtml+=`<div class="stat-box" style="border:1px solid var(--red)">
+        ${fuenteTag(fuente)}
+        <div style="color:var(--red);font-size:.8rem;margin-top:6px">Error: ${err}</div>
+      </div>`;
+    }
+  }
+  fhtml+='</div>';
+  $('fuentesResumen').innerHTML=fhtml;
+
+  // Tabla y gráfico por año
+  const desglose=em.desglose_por_anio||{};
+  const anios=Object.keys(desglose).sort();
+  const maxCant=Math.max(...anios.map(a=>desglose[a].cantidad),1);
+
+  $('tablaAnios').innerHTML=anios.map(a=>{
+    const d=desglose[a];
+    const pct=(d.cantidad/maxCant*100).toFixed(0);
+    const fTags=(d.fuentes||[]).map(f=>fuenteTag(f)).join('');
+    return `<tr>
+      <td><strong>${a}</strong></td>
+      <td class="num">${d.cantidad}</td>
+      <td class="num">${fmt(d.precio_medio)}</td>
+      <td class="num">${fmt(d.precio_mediana)}</td>
+      <td><div class="bar-container"><div class="bar" style="width:${pct}%;background:linear-gradient(90deg,var(--accent),var(--green))"></div></div>
+        <div style="margin-top:3px">${fTags}</div></td>
+    </tr>`;
+  }).join('');
+
+  // Chart.js — precio por año
+  if(chartAnioInst) chartAnioInst.destroy();
+  const ctx1=$('chartAnio').getContext('2d');
+  chartAnioInst=new Chart(ctx1,{
+    type:'bar',
+    data:{
+      labels:anios,
+      datasets:[
+        {label:'Precio medio',data:anios.map(a=>desglose[a].precio_medio),backgroundColor:'rgba(108,92,231,.6)',borderRadius:4},
+        {label:'Mediana',data:anios.map(a=>desglose[a].precio_mediana),backgroundColor:'rgba(0,184,148,.6)',borderRadius:4},
+      ]
+    },
+    options:{
+      responsive:true, maintainAspectRatio:false,
+      plugins:{legend:{labels:{color:'#dfe6e9'}}},
+      scales:{
+        x:{ticks:{color:'#636e72'},grid:{color:'rgba(42,45,58,.5)'}},
+        y:{ticks:{color:'#636e72',callback:v=>v.toLocaleString('es-ES')+'€'},grid:{color:'rgba(42,45,58,.5)'}},
+      }
+    }
+  });
+
+  // Chart.js — comparativa por fuente
+  if(chartFuentesInst) chartFuentesInst.destroy();
+  const fuenteNames=Object.keys(rpf);
+  const ctx2=$('chartFuentes').getContext('2d');
+  chartFuentesInst=new Chart(ctx2,{
+    type:'bar',
+    data:{
+      labels:fuenteNames,
+      datasets:[
+        {label:'Precio medio',data:fuenteNames.map(f=>rpf[f].precio_medio),backgroundColor:fuenteNames.map(f=>COLORES_FUENTE[f]||'#6c5ce7'),borderRadius:6},
+        {label:'Mediana',data:fuenteNames.map(f=>rpf[f].precio_mediana),backgroundColor:fuenteNames.map(f=>{const c=COLORES_FUENTE[f]||'#a29bfe';return c+'99';}),borderRadius:6},
+      ]
+    },
+    options:{
+      responsive:true, maintainAspectRatio:false,
+      plugins:{legend:{labels:{color:'#dfe6e9'}}},
+      scales:{
+        x:{ticks:{color:'#636e72'},grid:{color:'rgba(42,45,58,.5)'}},
+        y:{ticks:{color:'#636e72',callback:v=>v.toLocaleString('es-ES')+'€'},grid:{color:'rgba(42,45,58,.5)'}},
+      }
+    }
+  });
+
+  $('results').classList.remove('hidden');
+  $('results').scrollIntoView({behavior:'smooth'});
+}
+
+cargarMarcas();
+cargarProvincias();
+checkDB();
+</script>
+</body>
+</html>

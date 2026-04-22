@@ -1,0 +1,89 @@
+{
+  "url_params": {
+    "MakeIds[0]": {
+      "descripcion": "ID de marca",
+      "tipo": "int",
+      "fuente": "diccionario_coches_net.json"
+    },
+    "ModelIds[0]": {
+      "descripcion": "ID de modelo",
+      "tipo": "int",
+      "fuente": "diccionario_coches_net.json"
+    },
+    "MinYear": {
+      "descripcion": "Año mínimo",
+      "tipo": "int",
+      "ejemplo": 2018
+    },
+    "MaxYear": {
+      "descripcion": "Año máximo",
+      "tipo": "int",
+      "ejemplo": 2023
+    },
+    "MinKms": {
+      "descripcion": "Kilómetros mínimos",
+      "tipo": "int",
+      "ejemplo": 0
+    },
+    "MaxKms": {
+      "descripcion": "Kilómetros máximos",
+      "tipo": "int",
+      "ejemplo": 100000
+    },
+    "arrProvince": {
+      "descripcion": "IDs de provincias separados por |",
+      "tipo": "string",
+      "ejemplo": "35|38",
+      "fuente": "ubicaciones_coches_net.json"
+    },
+    "Fueltype2List": {
+      "descripcion": "ID de tipo de combustible",
+      "tipo": "int",
+      "valores": {
+        "1": "Diesel",
+        "2": "Gasolina",
+        "3": "Eléctrico",
+        "4": "Híbrido",
+        "5": "Híbrido enchufable",
+        "6": "Gas licuado (GLP)",
+        "7": "Gas natural (CNG)",
+        "8": "Otros"
+      }
+    },
+    "TransmissionTypeId": {
+      "descripcion": "ID de tipo de transmisión",
+      "tipo": "int",
+      "valores": {
+        "1": "Automático",
+        "2": "Manual"
+      }
+    },
+    "pg": {
+      "descripcion": "Número de página",
+      "tipo": "int",
+      "default": 1
+    }
+  },
+  "api_interna": {
+    "endpoint": "https://web.gw.coches.net/search/listing",
+    "metodo": "POST",
+    "nota": "API interna que usa la web. Los filtros URL se traducen a este POST automáticamente.",
+    "campos_filtro": {
+      "fuelTypeIds": "Array de IDs (ej: [2] para Gasolina)",
+      "transmissionTypeId": "Int (0=Todos, 1=Automático, 2=Manual)",
+      "km": {"from": "int|null", "to": "int|null"},
+      "year": {"from": "int|null", "to": "int|null"},
+      "provinceIds": "Array de IDs",
+      "vehicles": "[{makeId, modelId, make, model}]",
+      "drivenWheelsIds": "Array (1=AWD, 3=FWD, 4=RWD)",
+      "bodyTypeIds": "Array de IDs de carrocería",
+      "environmentalLabels": "Array de etiquetas DGT",
+      "hp": {"from": "int|null", "to": "int|null"}
+    }
+  },
+  "nombres_internos_dom": {
+    "combustible": "fuelTypeIdsGroup::fuelTypeIds::{id}",
+    "transmision": "transmissionTypeIdGroup::transmissionTypeId::{id}",
+    "traccion": "drivenWheelsIdsGroup::drivenWheelsIds::{id}"
+  }
+}

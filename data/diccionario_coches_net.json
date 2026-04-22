@@ -1,0 +1,2381 @@
+{
+  "ABARTH": {
+    "make_id": "1330",
+    "modelos": {
+      "500": "916",
+      "600": "1605",
+      "124 Spider": "1186",
+      "500C": "970",
+      "Grande Punto": "917",
+      "Punto": "1040",
+      "Punto EVO": "969"
+    }
+  },
+  "AIWAYS": {
+    "make_id": "1408",
+    "modelos": {
+      "U5": "1394",
+      "U6": "1459"
+    }
+  },
+  "AIXAM": {
+    "make_id": "158",
+    "modelos": {}
+  },
+  "ALFA ROMEO": {
+    "make_id": "1",
+    "modelos": {
+      "33": "771",
+      "75": "770",
+      "90": "769",
+      "145": "186",
+      "146": "205",
+      "147": "187",
+      "155": "58",
+      "156": "59",
+      "159": "60",
+      "164": "87",
+      "166": "217",
+      "4C": "1066",
+      "Brera": "559",
+      "Crosswagon": "537",
+      "Giulia": "1185",
+      "Giulietta": "872",
+      "GT": "532",
+      "GTV": "207",
+      "Junior": "1547",
+      "MiTo": "907",
+      "Spider": "208",
+      "Sprint": "873",
+      "Stelvio": "1217",
+      "Tonale": "1417"
+    }
+  },
+  "ALPINE": {
+    "make_id": "1377",
+    "modelos": {
+      "A110": "1288",
+      "A290": "1573",
+      "A390": "1680"
+    }
+  },
+  "ARO": {
+    "make_id": "238",
+    "modelos": {
+      "10": "159",
+      "24": "160",
+      "Dacia": "791",
+      "Expander": "30"
+    }
+  },
+  "ASIA": {
+    "make_id": "1326",
+    "modelos": {
+      "Rocsta": "358"
+    }
+  },
+  "ASIA MOTORS": {
+    "make_id": "2",
+    "modelos": {
+      "Rocsta": "742"
+    }
+  },
+  "ASTON MARTIN": {
+    "make_id": "3",
+    "modelos": {
+      "Cygnet": "993",
+      "DB11": "1302",
+      "DB12": "1660",
+      "DB7": "368",
+      "DB9": "387",
+      "DBS": "630",
+      "DBS Superleggera": "1300",
+      "DBX": "1309",
+      "Rapide": "952",
+      "V8": "369",
+      "V8 Vantage": "578",
+      "Vanquish": "446",
+      "Vantage": "579",
+      "Vantage V12": "947",
+      "Vantage V8": "946",
+      "Virage": "756"
+    }
+  },
+  "AUDI": {
+    "make_id": "4",
+    "modelos": {
+      "80": "6",
+      "90": "871",
+      "100": "870",
+      "200": "869",
+      "A1": "966",
+      "A2": "419",
+      "A3": "345",
+      "A4": "7",
+      "A4 Allroad Quattro": "925",
+      "A5": "611",
+      "A6": "27",
+      "A6 allroad quattro": "1023",
+      "A6 e-tron": "1581",
+      "A7": "974",
+      "A8": "105",
+      "Allroad Quattro": "414",
+      "Cabriolet": "230",
+      "Coupe": "100",
+      "e-tron": "1267",
+      "e-tron GT": "1353",
+      "e-tron Sportback": "1307",
+      "Q2": "1199",
+      "Q3": "999",
+      "Q3 Sportback": "1293",
+      "Q4 e-tron": "1368",
+      "Q4 Sportback e-tron": "1376",
+      "Q5": "904",
+      "Q5 SPORTBACK": "1342",
+      "Q6 e-tron": "1545",
+      "Q6 Sportback e-tron": "1608",
+      "Q7": "571",
+      "Q8": "1255",
+      "Q8 e-tron": "1457",
+      "Q8 Sportback e-tron": "1491",
+      "R8": "608",
+      "RS2": "104",
+      "RS3": "991",
+      "RS4": "416",
+      "RS6": "459",
+      "RS7": "1054",
+      "S1": "1117",
+      "S2": "103",
+      "S3": "408",
+      "S4": "359",
+      "S5": "612",
+      "S6": "96",
+      "S8": "344",
+      "SQ5": "1048",
+      "SQ7": "1184",
+      "TT": "360",
+      "TT RS": "933",
+      "TTS": "888",
+      "V8": "868"
+    }
+  },
+  "AUSTIN": {
+    "make_id": "111",
+    "modelos": {
+      "Maestro": "865",
+      "Metro": "866",
+      "Mini": "726",
+      "Mini Moke": "867",
+      "Montego": "768"
+    }
+  },
+  "AUVERLAND": {
+    "make_id": "1321",
+    "modelos": {
+      "Diesel": "790"
+    }
+  },
+  "BAIC": {
+    "make_id": "1441",
+    "modelos": {
+      "X55": "1659"
+    }
+  },
+  "BELLIER": {
+    "make_id": "1331",
+    "modelos": {}
+  },
+  "BENTLEY": {
+    "make_id": "6",
+    "modelos": {
+      "Arnage": "312",
+      "Azure": "268",
+      "Bentayga": "1168",
+      "Brooklands": "265",
+      "Continental": "267",
+      "Continental Flying Spur": "553",
+      "Continental GT": "494",
+      "Continental GTC": "926",
+      "Continental Supersports": "1024",
+      "Flying Spur": "1079",
+      "Mulsanne": "735",
+      "Turbo": "266",
+      "Turbo R": "734"
+    }
+  },
+  "BERTONE": {
+    "make_id": "241",
+    "modelos": {
+      "Freeclimber Diesel": "789"
+    }
+  },
+  "BESTUNE": {
+    "make_id": "1437",
+    "modelos": {
+      "B70": "1665",
+      "Joyee 07": "1681",
+      "T77": "1635",
+      "T90": "1636"
+    }
+  },
+  "BMW": {
+    "make_id": "7",
+    "modelos": {
+      "Compact": "171",
+      "i3": "1056",
+      "i4": "1374",
+      "i5": "1498",
+      "i7": "1422",
+      "i8": "1085",
+      "iX": "1361",
+      "iX1": "1444",
+      "ix2": "1515",
+      "iX3": "1324",
+      "Serie 1": "539",
+      "Serie 2": "1092",
+      "Serie 2 Active Tourer": "1158",
+      "Serie 2 Gran Tourer": "1159",
+      "Serie 3": "70",
+      "Serie 4": "1084",
+      "Serie 5": "71",
+      "Serie 6": "514",
+      "Serie 7": "177",
+      "Serie 8": "178",
+      "X1": "944",
+      "X2": "1241",
+      "X3": "515",
+      "X4": "1119",
+      "X5": "438",
+      "X6": "880",
+      "X7": "1259",
+      "XM": "1445",
+      "Z1": "864",
+      "Z3": "282",
+      "Z4": "291",
+      "Z8": "394"
+    }
+  },
+  "BUGATTI": {
+    "make_id": "1345",
+    "modelos": {}
+  },
+  "BUNKER-TRIKE": {
+    "make_id": "1332",
+    "modelos": {}
+  },
+  "BYD": {
+    "make_id": "1352",
+    "modelos": {
+      "Atto 2": "1624",
+      "Atto 3": "1480",
+      "Atto 3 Evo": "1700",
+      "Dolphin": "1492",
+      "Dolphin Surf": "1658",
+      "E6": "1112",
+      "ETP3": "1506",
+      "Han": "1482",
+      "Seal": "1509",
+      "Seal 6 DM-i": "1674",
+      "Sealion 7": "1610",
+      "Seal U": "1536",
+      "Seal U DM-i": "1617",
+      "Tang": "1479"
+    }
+  },
+  "CADILLAC": {
+    "make_id": "8",
+    "modelos": {
+      "BLS": "549",
+      "CTS": "504",
+      "El Dorado": "240",
+      "Escalade": "547",
+      "Seville": "238",
+      "SRX": "540",
+      "STS": "239",
+      "XLR": "519"
+    }
+  },
+  "CASALINI": {
+    "make_id": "1333",
+    "modelos": {}
+  },
+  "CENNTRO": {
+    "make_id": "1415",
+    "modelos": {
+      "Logistar 100": "1497",
+      "Logistar 200": "1473",
+      "Logistar 260": "1496",
+      "Metro": "1471"
+    }
+  },
+  "CHANGAN": {
+    "make_id": "1444",
+    "modelos": {
+      "Deepal S05": "1692",
+      "Deepal S07": "1693"
+    }
+  },
+  "CHATENET": {
+    "make_id": "161",
+    "modelos": {}
+  },
+  "CHEVROLET": {
+    "make_id": "9",
+    "modelos": {
+      "Alero": "384",
+      "Astro": "245",
+      "Aveo": "502",
+      "Blazer": "244",
+      "Camaro": "367",
+      "Captiva": "592",
+      "Corvette": "243",
+      "Corvette Stingray": "1089",
+      "Cruze": "932",
+      "Epica": "584",
+      "Evanda": "364",
+      "HHR": "886",
+      "Kalos": "501",
+      "Lacetti": "517",
+      "Malibu": "1029",
+      "Matiz": "374",
+      "Nubira": "297",
+      "Orlando": "988",
+      "Spark": "954",
+      "Tacuma": "444",
+      "Tahoe": "440",
+      "TrailBlazer": "451",
+      "Trans Sport": "366",
+      "Trax": "1070",
+      "Volt": "1014"
+    }
+  },
+  "CHRYSLER": {
+    "make_id": "10",
+    "modelos": {
+      "300C": "520",
+      "300M": "119",
+      "Crossfire": "512",
+      "Grand Voyager": "123",
+      "Gran Voyager": "861",
+      "Le Baron": "862",
+      "Neon": "135",
+      "New Yorker": "246",
+      "PT Cruiser": "441",
+      "Saratoga": "863",
+      "Sebring": "144",
+      "Sebring 200C": "145",
+      "Stratus": "143",
+      "Viper": "124",
+      "Vision": "118",
+      "Voyager": "137"
+    }
+  },
+  "CITROEN": {
+    "make_id": "11",
+    "modelos": {
+      "2CV": "860",
+      "AMI": "1463",
+      "AX": "127",
+      "Berlingo": "678",
+      "Berlingo First": "896",
+      "BX": "745",
+      "C1": "556",
+      "C15": "635",
+      "C2": "251",
+      "C25": "761",
+      "C3": "485",
+      "C3 Aircross": "1224",
+      "C3 Origin": "1538",
+      "C3 Picasso": "927",
+      "C3 Pluriel": "496",
+      "C4": "353",
+      "C4 Aircross": "1031",
+      "C4 Cactus": "1118",
+      "C4 Picasso": "619",
+      "C4 Sedán": "890",
+      "C4 Spacetourer": "1247",
+      "C4 X": "1455",
+      "C5": "427",
+      "C5 Aircross": "1260",
+      "C5 Aircross Hybrid": "1314",
+      "C5 X": "1385",
+      "C6": "586",
+      "C8": "130",
+      "C-Crosser": "625",
+      "C-Elysée": "1047",
+      "CX": "856",
+      "C-Zero": "989",
+      "DS3": "957",
+      "DS4": "998",
+      "DS5": "1015",
+      "ë-Berlingo": "1454",
+      "ë-C3": "1539",
+      "ë-C3 Aircross": "1558",
+      "ë-C3 Comercial": "1621",
+      "ë-C4": "1331",
+      "ëC4 X": "1456",
+      "E-C5 Aircross": "1668",
+      "Ë-Jumper": "1449",
+      "ë-Jumpy": "1448",
+      "E-Mehari": "1191",
+      "ë-Spacetourer": "1453",
+      "Evasion": "129",
+      "Grand C4 Picasso": "594",
+      "Grand C4 Spacetourer": "1248",
+      "GSA": "857",
+      "Holidays": "1582",
+      "Jumper": "663",
+      "Jumpy": "670",
+      "LNA": "859",
+      "Nemo": "878",
+      "Saxo": "250",
+      "Spacetourer": "1196",
+      "Visa": "858",
+      "Xantia": "11",
+      "XM": "125",
+      "Xsara": "352",
+      "Xsara Picasso": "413",
+      "ZX": "128"
+    }
+  },
+  "CORVETTE": {
+    "make_id": "1327",
+    "modelos": {
+      "Corvette": "375"
+    }
+  },
+  "CUPRA": {
+    "make_id": "1400",
+    "modelos": {
+      "Ateca": "1258",
+      "Born": "1381",
+      "Formentor": "1329",
+      "Leon": "1335",
+      "Tavascan": "1555",
+      "Terramar": "1580"
+    }
+  },
+  "DACIA": {
+    "make_id": "1011",
+    "modelos": {
+      "Bigster": "1619",
+      "Contac": "31",
+      "Dokker": "1055",
+      "Duster": "962",
+      "Jogger": "1389",
+      "Lodgy": "1028",
+      "Logan": "575",
+      "Sandero": "903",
+      "Spring": "1370"
+    }
+  },
+  "DAEWOO": {
+    "make_id": "12",
+    "modelos": {
+      "Aranos": "203",
+      "Compact": "298",
+      "Evanda": "363",
+      "Kalos": "500",
+      "Lacetti": "516",
+      "Lanos": "295",
+      "Leganza": "362",
+      "Lublin 3": "689",
+      "Matiz": "373",
+      "Nexia": "202",
+      "Nubira": "296",
+      "Nubira Compact": "299",
+      "Tacuma": "443"
+    }
+  },
+  "DAF": {
+    "make_id": "102",
+    "modelos": {
+      "VA": "786"
+    }
+  },
+  "DAIHATSU": {
+    "make_id": "13",
+    "modelos": {
+      "Applause": "65",
+      "Charade": "66",
+      "Feroza": "236",
+      "Rocky": "235",
+      "Sirion": "574",
+      "Terios": "314"
+    }
+  },
+  "DAIMLER": {
+    "make_id": "145",
+    "modelos": {
+      "Double Six": "747",
+      "Series III": "855",
+      "Serie XJ": "114",
+      "Six": "748",
+      "XJ": "557"
+    }
+  },
+  "DFSK": {
+    "make_id": "1351",
+    "modelos": {
+      "500": "1467",
+      "580": "1268",
+      "600": "1600",
+      "E5": "1599",
+      "F5": "1602",
+      "Fengon 5": "1320",
+      "ix5": "1319",
+      "Seres 3": "1354",
+      "Serie C": "1214",
+      "Serie K": "1111",
+      "Serie V": "1105"
+    }
+  },
+  "DODGE": {
+    "make_id": "173",
+    "modelos": {
+      "Avenger": "618",
+      "Caliber": "582",
+      "Challenger": "1519",
+      "Charger": "1518",
+      "Durango": "1517",
+      "Journey": "894",
+      "Nitro": "616",
+      "Viper": "541"
+    }
+  },
+  "DONGFENG": {
+    "make_id": "1431",
+    "modelos": {
+      "Box": "1576"
+    }
+  },
+  "DR AUTOMOBILES": {
+    "make_id": "1401",
+    "modelos": {
+      "DR 1.0 EV": "1486",
+      "DR 3": "1403",
+      "DR 3.0": "1484",
+      "DR4": "1269",
+      "DR 4.0": "1404",
+      "DR 5": "1697",
+      "DR 5.0": "1411",
+      "DR 6": "1409",
+      "DR 6.0": "1487",
+      "DR 7": "1696",
+      "DR 7.0": "1488",
+      "DR EVO 5": "1408",
+      "DR F35": "1410",
+      "PK8": "1485"
+    }
+  },
+  "DS": {
+    "make_id": "1358",
+    "modelos": {
+      "DS 3": "1149",
+      "DS 3 Crossback": "1263",
+      "DS 3 Crossback E-Tense": "1308",
+      "DS 4": "1147",
+      "DS 4 Crossback": "1169",
+      "DS 5": "1148",
+      "DS 7": "1440",
+      "DS 7 Crossback": "1223",
+      "DS 7 Crossback E-Tense": "1290",
+      "DS 9": "1348",
+      "Nº4": "1664",
+      "Nº8": "1650"
+    }
+  },
+  "DSK": {
+    "make_id": "1429",
+    "modelos": {
+      "Q51": "1571"
+    }
+  },
+  "EBRO": {
+    "make_id": "210",
+    "modelos": {
+      "S400": "1662",
+      "S700": "1615",
+      "S800": "1616",
+      "S900": "1685"
+    }
+  },
+  "ERAD": {
+    "make_id": "1334",
+    "modelos": {}
+  },
+  "ESTRIMA BIRO": {
+    "make_id": "1398",
+    "modelos": {}
+  },
+  "EVO": {
+    "make_id": "1410",
+    "modelos": {
+      "cross 4": "1477",
+      "Cuatro": "1675",
+      "EVO 3": "1412",
+      "EVO 3 Electric": "1414",
+      "EVO 4": "1413",
+      "EVO 5": "1415",
+      "EVO 6": "1609",
+      "EVO 7": "1526"
+    }
+  },
+  "EVUM": {
+    "make_id": "1416",
+    "modelos": {
+      "Acar": "1472"
+    }
+  },
+  "FARIZON": {
+    "make_id": "1436",
+    "modelos": {
+      "SV": "1679"
+    }
+  },
+  "FERRARI": {
+    "make_id": "146",
+    "modelos": {
+      "296": "1640",
+      "328": "854",
+      "348": "737",
+      "355": "744",
+      "360": "190",
+      "412": "852",
+      "430": "629",
+      "456": "196",
+      "458": "953",
+      "488": "1161",
+      "599": "195",
+      "612": "198",
+      "812": "1245",
+      "849": "1677",
+      "12cilindri": "1639",
+      "456M": "197",
+      "550 Maranello": "193",
+      "575M Maranello": "194",
+      "California": "912",
+      "Enzo": "511",
+      "F12": "1099",
+      "F355": "189",
+      "F40": "851",
+      "F430": "191",
+      "F50": "294",
+      "F512 M": "192",
+      "F80": "1641",
+      "FF": "1027",
+      "GTC4": "1183",
+      "Mondial": "853",
+      "Portofino": "1244",
+      "Purosangue": "1647",
+      "Roma": "1642",
+      "SF90": "1643",
+      "Superamerica": "560"
+    }
+  },
+  "FIAT": {
+    "make_id": "14",
+    "modelos": {
+      "500": "598",
+      "600": "397",
+      "124 Spider": "1180",
+      "500C": "963",
+      "500L": "1038",
+      "500X": "1138",
+      "Argenta": "849",
+      "Barchetta": "211",
+      "Brava": "278",
+      "Bravo": "276",
+      "Cinquecento": "13",
+      "Coupe": "172",
+      "Croma": "1",
+      "Doblò": "694",
+      "Doblò Cargo": "693",
+      "Doblò Furgón": "899",
+      "Doblò Panorama": "1280",
+      "Ducato": "664",
+      "e-Doblò": "1434",
+      "e-Ducato": "1323",
+      "E-Ulysse": "1476",
+      "Fiorino": "654",
+      "Freemont": "1002",
+      "Fullback": "1190",
+      "Grande Panda": "1623",
+      "Grande Punto": "76",
+      "Idea": "531",
+      "Linea": "597",
+      "Marea": "210",
+      "Multipla": "400",
+      "Palio Weekend": "355",
+      "Panda": "163",
+      "Panda Classic": "1017",
+      "Pandina": "1678",
+      "Punto": "75",
+      "Punto Classic": "913",
+      "Punto EVO": "958",
+      "Qubo": "914",
+      "Qubo L": "1707",
+      "Regata": "767",
+      "Ritmo": "850",
+      "Scudo": "671",
+      "Sedici": "595",
+      "Seicento": "14",
+      "Stilo": "277",
+      "Strada": "710",
+      "Talento": "785",
+      "Tempra": "209",
+      "Tipo": "164",
+      "Topolino": "1613",
+      "Ulysse": "184",
+      "Uno": "175"
+    }
+  },
+  "FISKER": {
+    "make_id": "1383",
+    "modelos": {
+      "Ocean": "1530"
+    }
+  },
+  "FORD": {
+    "make_id": "15",
+    "modelos": {
+      "B-MAX": "1033",
+      "Bronco": "1483",
+      "Capri": "847",
+      "C-Max": "497",
+      "Connect": "967",
+      "Cougar": "382",
+      "Courier": "655",
+      "EcoSport": "1063",
+      "Edge": "1174",
+      "Escort": "37",
+      "Explorer": "233",
+      "Explorer EV": "1618",
+      "Fiesta": "86",
+      "Fiesta Van": "709",
+      "Focus": "38",
+      "Focus C-MAX": "476",
+      "Fusion": "490",
+      "Galaxy": "283",
+      "Granada": "848",
+      "Grand C-Max": "972",
+      "Grand Tourneo Connect": "1136",
+      "Grand Tourneo Custom": "1132",
+      "Ka+": "1192",
+      "KA": "289",
+      "Kuga": "882",
+      "Maverick": "26",
+      "Mondeo": "39",
+      "Mustang": "1130",
+      "Mustang Mach-E": "1326",
+      "Orion": "760",
+      "Probe": "176",
+      "Puma": "365",
+      "Ranger": "688",
+      "Scorpio": "40",
+      "Sierra": "757",
+      "S-MAX": "590",
+      "StreetKa": "495",
+      "Tourneo Connect": "1128",
+      "Tourneo Courier": "1127",
+      "Tourneo Custom": "1044",
+      "Transit": "645",
+      "Transit Connect": "702",
+      "Transit Courier": "1114",
+      "Transit Custom": "1043"
+    }
+  },
+  "FOTON": {
+    "make_id": "1430",
+    "modelos": {
+      "eToano": "1629",
+      "Tunland G7": "1574",
+      "Tunland V9": "1575"
+    }
+  },
+  "FUSO": {
+    "make_id": "1397",
+    "modelos": {
+      "Canter": "1221"
+    }
+  },
+  "GALLOPER": {
+    "make_id": "16",
+    "modelos": {
+      "Exceed": "370",
+      "Santamo": "381",
+      "Super Exceed": "395"
+    }
+  },
+  "GME": {
+    "make_id": "191",
+    "modelos": {
+      "Midi": "783",
+      "Rascal": "784"
+    }
+  },
+  "GRECAV": {
+    "make_id": "1335",
+    "modelos": {}
+  },
+  "GREEN TOUR": {
+    "make_id": "1406",
+    "modelos": {}
+  },
+  "HERKO": {
+    "make_id": "1442",
+    "modelos": {
+      "Bios 35": "1671"
+    }
+  },
+  "HONDA": {
+    "make_id": "69",
+    "modelos": {
+      "Accord": "93",
+      "Civic": "97",
+      "Concerto": "846",
+      "CR-V": "354",
+      "CRX": "101",
+      "CR-Z": "964",
+      "e:NY1": "1505",
+      "FR-V": "544",
+      "Honda e": "1298",
+      "HR-V": "401",
+      "Insight": "924",
+      "Jazz": "456",
+      "Legend": "220",
+      "Logo": "402",
+      "NSX": "199",
+      "Prelude": "102",
+      "S2000": "409",
+      "Stream": "454",
+      "ZR-V": "1504"
+    }
+  },
+  "HONGQI": {
+    "make_id": "1423",
+    "modelos": {
+      "E-HS9": "1542"
+    }
+  },
+  "HUMMER": {
+    "make_id": "234",
+    "modelos": {
+      "H2": "475",
+      "H3": "564",
+      "H3T": "921"
+    }
+  },
+  "HYUNDAI": {
+    "make_id": "18",
+    "modelos": {
+      "Accent": "132",
+      "Atos": "356",
+      "Atos Prime": "412",
+      "Bayon": "1372",
+      "Coupe": "216",
+      "Elantra": "121",
+      "Genesis": "986",
+      "Getz": "491",
+      "Grandeur": "879",
+      "Grand Santa Fe": "1064",
+      "H-1": "357",
+      "H100": "680",
+      "H-1 Travel": "1144",
+      "H-1 Van": "1145",
+      "H350": "1164",
+      "i10": "885",
+      "i20": "928",
+      "i20 Active": "1189",
+      "i30": "622",
+      "i40": "1000",
+      "i800": "901",
+      "Inster": "1614",
+      "IONIQ": "1202",
+      "IONIQ 5": "1371",
+      "IONIQ 6": "1465",
+      "IONIQ 9": "1663",
+      "ix20": "980",
+      "ix35": "961",
+      "ix55": "922",
+      "Kona": "1239",
+      "Lantra": "36",
+      "Matrix": "431",
+      "Nexo": "1249",
+      "Pony": "728",
+      "Santa Fe": "425",
+      "Scoupe": "215",
+      "Sonata": "51",
+      "Sonata FL": "908",
+      "Staria": "1427",
+      "Terracan": "428",
+      "Trajet": "418",
+      "TUCSON": "529",
+      "Veloster": "1003",
+      "XG": "417"
+    }
+  },
+  "ICH-X": {
+    "make_id": "1438",
+    "modelos": {
+      "K2": "1654",
+      "K3": "1686"
+    }
+  },
+  "INEOS": {
+    "make_id": "1409",
+    "modelos": {
+      "Grenadier": "1424"
+    }
+  },
+  "INFINITI": {
+    "make_id": "1025",
+    "modelos": {
+      "EX": "910",
+      "FX": "911",
+      "G": "909",
+      "M": "973",
+      "Q30": "1086",
+      "Q50": "1068",
+      "Q60": "1121",
+      "Q70": "1122",
+      "QX30": "1195",
+      "QX50": "1124",
+      "QX70": "1123"
+    }
+  },
+  "INNOCENTI": {
+    "make_id": "185",
+    "modelos": {
+      "Elba": "20",
+      "Minitre": "845"
+    }
+  },
+  "ISUZU": {
+    "make_id": "19",
+    "modelos": {
+      "D-Max": "723",
+      "D MAX": "706",
+      "Pick Up": "698",
+      "Rodeo": "712",
+      "Serie N": "690",
+      "Trooper": "393"
+    }
+  },
+  "ITAL CAR": {
+    "make_id": "1336",
+    "modelos": {}
+  },
+  "IVECO": {
+    "make_id": "126",
+    "modelos": {
+      "Daily": "633",
+      "eDaily": "1553",
+      "eMoovy": "1690",
+      "Massif": "887"
+    }
+  },
+  "IVECO-PEGASO": {
+    "make_id": "103",
+    "modelos": {
+      "Daily": "725",
+      "Duty": "782"
+    }
+  },
+  "JAECOO": {
+    "make_id": "1434",
+    "modelos": {
+      "5": "1670",
+      "7": "1589",
+      "8": "1708"
+    }
+  },
+  "JAGUAR": {
+    "make_id": "20",
+    "modelos": {
+      "E-Pace": "1226",
+      "F-Pace": "1166",
+      "F-Type": "1058",
+      "i-Pace": "1246",
+      "Serie XJ": "91",
+      "Serie XK": "92",
+      "S-Type": "406",
+      "XE": "1139",
+      "XF": "407",
+      "XJ": "113",
+      "X-Type": "426"
+    }
+  },
+  "JDM": {
+    "make_id": "159",
+    "modelos": {}
+  },
+  "JEEP": {
+    "make_id": "21",
+    "modelos": {
+      "Avenger": "1452",
+      "Cherokee": "148",
+      "Commander": "580",
+      "Compass": "603",
+      "Gladiator": "1364",
+      "Grand Cherokee": "218",
+      "Patriot": "617",
+      "Renegade": "1131",
+      "Wrangler": "138",
+      "Wrangler Unlimited": "614"
+    }
+  },
+  "KGM": {
+    "make_id": "1427",
+    "modelos": {
+      "Korando": "1566",
+      "Musso": "1569",
+      "Musso EVX": "1701",
+      "Rexton": "1564",
+      "Tivoli": "1565",
+      "Tivoli Grand": "1567",
+      "Torres": "1568",
+      "Torres Actyon": "1673"
+    }
+  },
+  "KIA": {
+    "make_id": "22",
+    "modelos": {
+      "Besta": "679",
+      "Carens": "439",
+      "Carnival": "386",
+      "Ceed": "607",
+      "cee'd Sportswagon": "1041",
+      "cee'd Sporty Wagon": "626",
+      "Ceed Tourer": "1276",
+      "Cerato": "445",
+      "Clarus": "348",
+      "e-Niro": "1266",
+      "e-Soul": "1287",
+      "EV3": "1591",
+      "EV4": "1669",
+      "EV5": "1688",
+      "EV6": "1369",
+      "EV9": "1502",
+      "Joice": "389",
+      "k2500": "703",
+      "K2500 Frontier": "701",
+      "K4": "1689",
+      "Magentis": "429",
+      "Niro": "1197",
+      "Opirus": "530",
+      "Optima": "1019",
+      "Optima GT": "1210",
+      "Optima Hïbrido Enchufable": "1234",
+      "Optima PHEV": "1209",
+      "Optima SW": "1208",
+      "Optima SW GT": "1207",
+      "Optima SW Hïbrido Enchufable": "1236",
+      "Picanto": "535",
+      "Pregio": "683",
+      "Pride": "347",
+      "pro_cee'd": "631",
+      "ProCeed": "1317",
+      "pro_cee'd GT": "1205",
+      "PV5": "1661",
+      "Rio": "442",
+      "Sephia": "140",
+      "Sephia II": "141",
+      "Shuma": "372",
+      "Sorento": "489",
+      "Soul": "919",
+      "Soul EV": "1206",
+      "Sportage": "139",
+      "Stinger": "1237",
+      "Stonic": "1229",
+      "Venga": "955",
+      "XCeed": "1294"
+    }
+  },
+  "KTM": {
+    "make_id": "1349",
+    "modelos": {}
+  },
+  "LADA": {
+    "make_id": "153",
+    "modelos": {
+      "214": "507",
+      "4X4": "1088",
+      "Kalina": "627",
+      "Niva": "165",
+      "Priora": "983",
+      "Sagona": "234",
+      "Samara": "161",
+      "Serie 2100": "844",
+      "Stawra 2110": "378"
+    }
+  },
+  "LAMBORGHINI": {
+    "make_id": "243",
+    "modelos": {
+      "Aventador": "995",
+      "Gallardo": "526",
+      "Huracán": "1116",
+      "Murcielago": "527",
+      "Revuelto": "1645",
+      "Temerario": "1644",
+      "Urus": "1382"
+    }
+  },
+  "LANCIA": {
+    "make_id": "23",
+    "modelos": {
+      "A112": "843",
+      "Dedra": "84",
+      "Delta": "19",
+      "K": "61",
+      "Kappa": "758",
+      "Lybra": "183",
+      "Musa": "536",
+      "Phedra": "343",
+      "Prisma": "842",
+      "Thema": "743",
+      "Thesis": "342",
+      "Trevi": "841",
+      "Voyager": "1013",
+      "Y": "339",
+      "Y10": "78",
+      "Ypsilon": "340",
+      "Ypsilon Elefantino": "992",
+      "Z": "204",
+      "Zeta": "749"
+    }
+  },
+  "LAND-ROVER": {
+    "make_id": "24",
+    "modelos": {
+      "Defender": "231",
+      "Discovery": "232",
+      "Discovery 4": "939",
+      "Discovery Sport": "1134",
+      "Freelander": "313",
+      "Range Rover": "115",
+      "Range Rover Evoque": "994",
+      "Range Rover Sport": "546",
+      "Range Rover Velar": "1218"
+    }
+  },
+  "LDV": {
+    "make_id": "128",
+    "modelos": {
+      "400": "646",
+      "Convoy": "647",
+      "Maxus": "713"
+    }
+  },
+  "LEAPMOTOR": {
+    "make_id": "1432",
+    "modelos": {
+      "B10": "1672",
+      "C10": "1586",
+      "T03": "1587"
+    }
+  },
+  "LEVC": {
+    "make_id": "1407",
+    "modelos": {
+      "TX": "1356",
+      "VN5": "1357"
+    }
+  },
+  "LEXUS": {
+    "make_id": "25",
+    "modelos": {
+      "CT": "985",
+      "ES": "1251",
+      "GS": "746",
+      "GS300": "126",
+      "GS430": "334",
+      "GS450h": "583",
+      "GS460": "335",
+      "IS": "883",
+      "IS200": "323",
+      "IS220d": "565",
+      "IS250": "480",
+      "IS300": "479",
+      "LBX": "1512",
+      "LC": "1203",
+      "LM": "1494",
+      "LS": "741",
+      "LS400": "32",
+      "LS430": "33",
+      "LS460": "602",
+      "LS600h": "620",
+      "NX": "1125",
+      "RC": "1126",
+      "RX": "930",
+      "RX300": "333",
+      "RX350": "581",
+      "RX400h": "562",
+      "RZ": "1436",
+      "SC": "929",
+      "SC430": "430",
+      "UX": "1256"
+    }
+  },
+  "LIGIER": {
+    "make_id": "163",
+    "modelos": {
+      "JS50": "1583",
+      "JS60": "1584",
+      "Myli": "1585",
+      "Pulse 4": "1499"
+    }
+  },
+  "LIVAN": {
+    "make_id": "1439",
+    "modelos": {
+      "X3 Pro": "1655",
+      "X6 Pro": "1656"
+    }
+  },
+  "LOTUS": {
+    "make_id": "147",
+    "modelos": {
+      "Eletre": "1630",
+      "Elise": "423",
+      "Emeya": "1631",
+      "Emira": "1438",
+      "Exige": "424"
+    }
+  },
+  "LYNK & CO": {
+    "make_id": "1404",
+    "modelos": {
+      "01": "1336",
+      "02": "1601",
+      "08": "1625"
+    }
+  },
+  "M-HERO": {
+    "make_id": "1428",
+    "modelos": {}
+  },
+  "MAHINDRA": {
+    "make_id": "246",
+    "modelos": {
+      "Bolero Pick-Up": "714",
+      "CJ": "787",
+      "Genio": "1179",
+      "Goa": "716",
+      "Goa Pick-Up": "715",
+      "Goa Pik Up Plus": "1305",
+      "KUV100": "1254",
+      "KUV100 NXT": "1350",
+      "Pikup": "1006",
+      "Quanto": "1178",
+      "Thar": "1007",
+      "XUV500": "1146"
+    }
+  },
+  "MAN": {
+    "make_id": "104",
+    "modelos": {}
+  },
+  "MASERATI": {
+    "make_id": "26",
+    "modelos": {
+      "224": "840",
+      "228": "839",
+      "3200 GT": "403",
+      "Biturbo": "838",
+      "Coupé": "404",
+      "Ghibli": "336",
+      "GranCabrio": "948",
+      "Gransport": "552",
+      "GranTurismo": "623",
+      "Grecale": "1416",
+      "Levante": "1181",
+      "MC20": "1332",
+      "Quattroporte": "338",
+      "Shamal": "337",
+      "Spyder": "483"
+    }
+  },
+  "MAXUS": {
+    "make_id": "1403",
+    "modelos": {
+      "Deliver 7": "1592",
+      "Deliver 9": "1360",
+      "eDeliver 3": "1358",
+      "eDeliver 5": "1667",
+      "eDeliver 9": "1359",
+      "eTerron 9": "1612",
+      "Euniq 5": "1401",
+      "EV80": "1344",
+      "Maxus": "1343",
+      "Mifa 9": "1493",
+      "T60 MAX": "1611",
+      "T90": "1466",
+      "V80": "1345"
+    }
+  },
+  "MAYBACH": {
+    "make_id": "1323",
+    "modelos": {
+      "Maybach": "471"
+    }
+  },
+  "MAZDA": {
+    "make_id": "27",
+    "modelos": {
+      "121": "80",
+      "323": "162",
+      "626": "79",
+      "929": "837",
+      "B-2500": "704",
+      "BT-50": "717",
+      "CX-3": "1140",
+      "CX-30": "1285",
+      "CX-5": "1016",
+      "CX-60": "1407",
+      "CX-6e": "1706",
+      "CX-7": "613",
+      "CX-80": "1550",
+      "CX-9": "1137",
+      "Demio": "377",
+      "Mazda2": "505",
+      "Mazda3": "287",
+      "Mazda5": "561",
+      "Mazda6": "453",
+      "Mazda6e": "1632",
+      "MPV": "288",
+      "MX3": "223",
+      "MX-30": "1321",
+      "MX5": "237",
+      "MX6": "836",
+      "Premacy": "437",
+      "RX7": "227",
+      "RX-8": "508",
+      "Serie B": "687",
+      "Tribute": "452",
+      "Xedos 6": "74",
+      "Xedos 9": "85"
+    }
+  },
+  "MCLAREN": {
+    "make_id": "1347",
+    "modelos": {
+      "750S": "1649",
+      "Artura": "1648"
+    }
+  },
+  "MEGA": {
+    "make_id": "1337",
+    "modelos": {}
+  },
+  "MELEX": {
+    "make_id": "1338",
+    "modelos": {}
+  },
+  "MERCEDES-BENZ": {
+    "make_id": "28",
+    "modelos": {
+      "190": "765",
+      "200": "762",
+      "220": "750",
+      "230": "835",
+      "260": "834",
+      "280": "731",
+      "300": "831",
+      "400": "781",
+      "420": "833",
+      "500": "832",
+      "600": "780",
+      "100D": "637",
+      "140D": "638",
+      "180D": "639",
+      "208D": "640",
+      "210D": "651",
+      "308D": "641",
+      "310D": "642",
+      "AMG GT": "1143",
+      "Citan": "1042",
+      "CLA": "1299",
+      "Clase A": "275",
+      "Clase B": "566",
+      "Clase C": "8",
+      "Clase CL": "57",
+      "Clase CLA": "1057",
+      "Clase CLC": "891",
+      "Clase CLK": "269",
+      "Clase CLS": "542",
+      "Clase E": "41",
+      "Clase G": "167",
+      "Clase GL": "550",
+      "Clase GLA": "1100",
+      "Clase GLC": "1162",
+      "Clase GLE": "1154",
+      "Clase GLE Coupé": "1155",
+      "Clase GLK": "905",
+      "Clase GLS": "1173",
+      "Clase M": "309",
+      "Clase R": "548",
+      "Clase S": "56",
+      "Clase SL": "55",
+      "Clase SLC": "1176",
+      "Clase SLK": "258",
+      "Clase SL R129": "830",
+      "Clase T": "1426",
+      "Clase V": "259",
+      "Clase X": "1238",
+      "CLE": "1521",
+      "CLS": "1243",
+      "EQA": "1355",
+      "EQB": "1390",
+      "EQC": "1284",
+      "EQE": "1423",
+      "EQE SUV": "1468",
+      "EQS": "1383",
+      "EQS SUV": "1469",
+      "EQT": "1495",
+      "EQV": "1322",
+      "GLA": "1098",
+      "GLB": "1306",
+      "GLC": "1439",
+      "GLC Coupé": "1194",
+      "GLE": "1261",
+      "GLE Coupé": "1318",
+      "GLS": "1286",
+      "Mercedes-AMG GT": "1215",
+      "Mercedes-AMG SL": "1421",
+      "Mercedes-Maybach SL": "1620",
+      "SL-Klasse": "473",
+      "SLR McLaren": "474",
+      "SLS AMG": "951",
+      "Sprinter": "666",
+      "Transporter": "727",
+      "Vaneo": "466",
+      "Viano": "260",
+      "Vito": "668"
+    }
+  },
+  "MG": {
+    "make_id": "29",
+    "modelos": {
+      "Cyberster": "1606",
+      "eHS": "1365",
+      "HS": "1362",
+      "Marvel R": "1386",
+      "MG3": "1622",
+      "MG3 Hybrid+": "1551",
+      "MG4": "1443",
+      "MG5": "1406",
+      "MGF": "253",
+      "MGS5 EV": "1646",
+      "MGS6 EV": "1694",
+      "S9": "1705",
+      "TF": "254",
+      "ZR": "433",
+      "ZS": "434",
+      "ZS EV": "1366",
+      "ZT": "435",
+      "ZT-T": "482"
+    }
+  },
+  "MICRO": {
+    "make_id": "1433",
+    "modelos": {
+      "Microlino": "1588"
+    }
+  },
+  "MICROCAR": {
+    "make_id": "162",
+    "modelos": {}
+  },
+  "MINI": {
+    "make_id": "222",
+    "modelos": {
+      "AcEMAN": "1556",
+      "CLUBMAN": "1167",
+      "COOPER": "1527",
+      "COUNTRYMAN": "971",
+      "MINI": "449",
+      "Paceman": "1052"
+    }
+  },
+  "MITSUBISHI": {
+    "make_id": "30",
+    "modelos": {
+      "3000 GT": "224",
+      "300 GT": "829",
+      "ASX": "965",
+      "Canter": "673",
+      "Carisma": "280",
+      "Colt": "173",
+      "Eclipse": "281",
+      "Eclipse Cross": "1242",
+      "Galant": "111",
+      "Grandis": "563",
+      "i-MiEV": "997",
+      "L200": "658",
+      "L300": "661",
+      "Lancer": "518",
+      "Montero": "72",
+      "Montero iO": "388",
+      "Montero Sport": "383",
+      "Outlander": "509",
+      "Space Gear": "206",
+      "Space Runner": "201",
+      "Space Star": "376",
+      "Space Wagon": "174"
+    }
+  },
+  "MOBILIZE": {
+    "make_id": "1440",
+    "modelos": {
+      "Duo": "1657"
+    }
+  },
+  "MORGAN": {
+    "make_id": "149",
+    "modelos": {
+      "+4": "605",
+      "4/4": "421",
+      "Aero 8": "498",
+      "Plus 4": "730",
+      "Plus 8": "422",
+      "Roadster": "534",
+      "V6": "533"
+    }
+  },
+  "MW MOTORS": {
+    "make_id": "1419",
+    "modelos": {
+      "Spartan": "1501"
+    }
+  },
+  "NEXTEM": {
+    "make_id": "1417",
+    "modelos": {
+      "Orca": "1474"
+    }
+  },
+  "NISSAN": {
+    "make_id": "31",
+    "modelos": {
+      "100 NX": "228",
+      "200 SX": "157",
+      "300 ZX": "169",
+      "350Z": "521",
+      "370Z": "942",
+      "Almera": "303",
+      "Almera Tino": "415",
+      "Ariya": "1425",
+      "Bluebird": "828",
+      "Cabstar": "692",
+      "Cabstar E": "691",
+      "CAMION": "779",
+      "CUBE": "959",
+      "e-NV200": "1115",
+      "e-NV200 EVALIA": "1188",
+      "EVALIA": "1018",
+      "GT-R": "941",
+      "Interstar": "696",
+      "JUKE": "976",
+      "Kubistar": "707",
+      "LEAF": "1008",
+      "Maxima": "751",
+      "Maxima QX": "110",
+      "Micra": "34",
+      "Murano": "567",
+      "Navara": "685",
+      "NOTE": "588",
+      "NP300 Navara": "1175",
+      "NP300 Pick Up": "906",
+      "NT400": "1200",
+      "NT400 Cabstar": "1113",
+      "NV200": "949",
+      "NV200 EVALIA": "1187",
+      "NV250": "1301",
+      "NV300": "1213",
+      "NV400": "1010",
+      "Pathfinder": "396",
+      "Patrol": "107",
+      "Patrol GR": "219",
+      "Pick-up": "684",
+      "Pixo": "938",
+      "Prairie": "827",
+      "Primastar": "699",
+      "Primera": "99",
+      "PULSAR": "1129",
+      "QASHQAI": "606",
+      "QASHQAI+2": "915",
+      "Serena": "106",
+      "Sunny": "35",
+      "Terrano": "25",
+      "Terrano II": "24",
+      "Tiida": "632",
+      "Townstar": "1391",
+      "Trade": "644",
+      "Vanette": "643",
+      "Vanette Cargo": "665",
+      "Vanette E": "667",
+      "X-TRAIL": "455"
+    }
+  },
+  "OMODA": {
+    "make_id": "1420",
+    "modelos": {
+      "5": "1507",
+      "7": "1695",
+      "9": "1634",
+      "5 EV": "1572"
+    }
+  },
+  "OPEL": {
+    "make_id": "32",
+    "modelos": {
+      "Adam": "1051",
+      "Agila": "392",
+      "Ampera": "1026",
+      "Antara": "596",
+      "Ascona": "826",
+      "Astra": "67",
+      "Astra Electric": "1514",
+      "Astra PHEV": "1399",
+      "Cabrio": "1075",
+      "Calibra": "69",
+      "Combo": "659",
+      "Combo-e": "1400",
+      "Combo Electric": "1537",
+      "Combo-e Life": "1377",
+      "Combo Life": "1253",
+      "Corsa": "77",
+      "Corsa-e": "1289",
+      "Corsa Electric": "1503",
+      "Corsa-e Van": "1387",
+      "Corsa Van": "705",
+      "Crossland": "1337",
+      "Crossland X": "1219",
+      "Frontera": "170",
+      "Frontera Electric": "1563",
+      "Grandland": "1379",
+      "Grandland PHEV": "1398",
+      "Grandland X": "1228",
+      "Grandland X PHEV": "1292",
+      "GT": "615",
+      "GTC": "1163",
+      "Insignia": "918",
+      "Kadett": "775",
+      "Karl": "1160",
+      "Manta": "825",
+      "Meriva": "506",
+      "Mokka": "1036",
+      "Mokka-e": "1333",
+      "Mokka X": "1198",
+      "Monterey": "222",
+      "Monza": "822",
+      "Movano": "686",
+      "Movano-e": "1397",
+      "Omega": "151",
+      "Rekord": "824",
+      "Senator": "823",
+      "Signum": "499",
+      "Sintra": "292",
+      "Speedster": "448",
+      "Tigra": "188",
+      "Vectra": "68",
+      "Vivaro": "695",
+      "Vivaro-e": "1327",
+      "Vivaro Electric": "1508",
+      "Zafira": "385",
+      "Zafira Electric": "1531",
+      "Zafira-e Life": "1339",
+      "Zafira Life": "1281",
+      "Zafira Tourer": "1012"
+    }
+  },
+  "PEUGEOT": {
+    "make_id": "33",
+    "modelos": {
+      "106": "81",
+      "107": "558",
+      "108": "1135",
+      "205": "82",
+      "206": "380",
+      "207": "587",
+      "208": "1021",
+      "306": "42",
+      "307": "293",
+      "308": "447",
+      "309": "821",
+      "405": "155",
+      "406": "156",
+      "407": "279",
+      "408": "1441",
+      "505": "820",
+      "508": "982",
+      "604": "819",
+      "605": "43",
+      "607": "420",
+      "806": "185",
+      "807": "200",
+      "1007": "554",
+      "2008": "1077",
+      "3008": "934",
+      "4007": "621",
+      "4008": "1039",
+      "5008": "950",
+      "206 +": "1094",
+      "206 SW": "487",
+      "207 +": "1095",
+      "208 XAD": "1046",
+      "3008 Hybrid": "1316",
+      "3008 Plug-in Hybrid": "1554",
+      "307 SW": "484",
+      "407 SW": "488",
+      "5008 Hybrid": "1490",
+      "5008 Plug-in Hybrid": "1560",
+      "508 Hybrid": "1315",
+      "Bipper": "881",
+      "Boxer": "662",
+      "e-2008": "1303",
+      "e-208": "1291",
+      "E-3008": "1523",
+      "E-308": "1489",
+      "E-408": "1597",
+      "E-5008": "1559",
+      "e-Boxer": "1451",
+      "e-Expert": "1330",
+      "e-Partner": "1447",
+      "e-Rifter": "1450",
+      "e-Traveller": "1347",
+      "Expert": "672",
+      "ion": "990",
+      "J5": "778",
+      "Partner": "681",
+      "Partner Origin": "893",
+      "RCZ": "968",
+      "Rifter": "1252",
+      "Traveller": "1201"
+    }
+  },
+  "PGO SCOOTERS": {
+    "make_id": "1339",
+    "modelos": {}
+  },
+  "PIAGGIO": {
+    "make_id": "87",
+    "modelos": {
+      "Porter": "660",
+      "Porter NP6": "1380",
+      "Quargo": "721"
+    }
+  },
+  "POLARIS": {
+    "make_id": "1340",
+    "modelos": {}
+  },
+  "POLESTAR": {
+    "make_id": "1402",
+    "modelos": {
+      "2": "1420",
+      "3": "1437",
+      "4": "1516",
+      "5": "1666"
+    }
+  },
+  "PONTIAC": {
+    "make_id": "112",
+    "modelos": {
+      "Firebird": "241",
+      "Trans Am": "242",
+      "Trans Sport": "226"
+    }
+  },
+  "PORSCHE": {
+    "make_id": "34",
+    "modelos": {
+      "718": "1177",
+      "911": "73",
+      "918": "996",
+      "924": "818",
+      "928": "753",
+      "944": "817",
+      "968": "754",
+      "Boxster": "290",
+      "Carrera GT": "510",
+      "Cayenne": "503",
+      "Cayenne Coupé": "1277",
+      "Cayman": "573",
+      "Macan": "1097",
+      "Panamera": "936",
+      "Taycan": "1297"
+    }
+  },
+  "QOROS": {
+    "make_id": "1348",
+    "modelos": {}
+  },
+  "QUOVIS": {
+    "make_id": "1341",
+    "modelos": {}
+  },
+  "RAM": {
+    "make_id": "1372",
+    "modelos": {
+      "RAM 1500": "1520"
+    }
+  },
+  "RENAULT": {
+    "make_id": "35",
+    "modelos": {
+      "4 E-Tech": "1628",
+      "5 E-Tech": "1579",
+      "Alpine": "-1",
+      "Arkana": "1363",
+      "Austral": "1442",
+      "Avantime": "464",
+      "Captur": "1069",
+      "Clio": "90",
+      "Clio 4": "1133",
+      "Clio Campus": "478",
+      "Clio III": "1074",
+      "Espace": "153",
+      "Express": "634",
+      "Fluence": "956",
+      "Fuego": "812",
+      "Grand Espace": "306",
+      "Grand Kangoo Combi": "1025",
+      "Grand Modus": "875",
+      "Grand Scénic": "477",
+      "Kadjar": "1153",
+      "Kangoo": "674",
+      "Kangoo Combi": "876",
+      "Kangoo Combi E-Tech": "1533",
+      "Kangoo Express": "675",
+      "Kangoo Furgón": "889",
+      "Kangoo Furgón Compact": "902",
+      "Kangoo Furgón E-Tech": "1534",
+      "Kangoo Z.E.": "1225",
+      "Koleos": "898",
+      "Laguna": "54",
+      "Latitude": "987",
+      "Mascott": "677",
+      "Master": "649",
+      "Master E-Tech": "1375",
+      "Master Propulsión": "700",
+      "Master Z.E.": "1250",
+      "Maxity": "720",
+      "Mégane": "17",
+      "Megane E-Tech": "1395",
+      "Modus": "543",
+      "Nevada": "149",
+      "R11": "814",
+      "R18": "813",
+      "R19": "729",
+      "R21": "764",
+      "R25": "759",
+      "R4": "773",
+      "R5": "763",
+      "R6": "816",
+      "R9": "815",
+      "Rafale": "1540",
+      "Safrane": "18",
+      "Scénic": "270",
+      "Scenic E-Tech": "1529",
+      "Spider": "261",
+      "Symbioz": "1557",
+      "Talisman": "1165",
+      "Trafic": "648",
+      "Trafic E-Tech": "1535",
+      "Twingo": "122",
+      "Twingo E-Tech": "1532",
+      "Vel Satis": "469",
+      "Wind": "975",
+      "ZOE": "1071"
+    }
+  },
+  "RENAULT V.I.": {
+    "make_id": "1329",
+    "modelos": {
+      "CAMION": "777"
+    }
+  },
+  "ROLLS-ROYCE": {
+    "make_id": "36",
+    "modelos": {
+      "Corniche": "329",
+      "Cullinan": "1651",
+      "Ghost": "1653",
+      "Park Ward": "264",
+      "Phantom": "493",
+      "Silver Seraph": "311",
+      "Silver Spur": "263",
+      "Silvier": "733",
+      "Siver Dawn": "262",
+      "Spectre": "1652"
+    }
+  },
+  "ROVER": {
+    "make_id": "37",
+    "modelos": {}
+  },
+  "SAAB": {
+    "make_id": "38",
+    "modelos": {
+      "900": "3",
+      "9000": "5",
+      "9-3": "4",
+      "9-3X": "940",
+      "9-4X": "1004",
+      "9-5": "212"
+    }
+  },
+  "SAIC": {
+    "make_id": "1399",
+    "modelos": {}
+  },
+  "SANTANA": {
+    "make_id": "1328",
+    "modelos": {
+      "300": "576",
+      "350": "577",
+      "Anibal": "697",
+      "Anibal Pick Up": "711"
+    }
+  },
+  "SEAT": {
+    "make_id": "39",
+    "modelos": {
+      "Alhambra": "341",
+      "ALTEA": "525",
+      "Altea Freetrack": "624",
+      "Altea XL": "600",
+      "Arona": "1231",
+      "Arosa": "349",
+      "Ateca": "1182",
+      "Cordoba": "94",
+      "Exeo": "923",
+      "Ibiza": "2",
+      "Inca": "669",
+      "Leon": "410",
+      "Malaga": "808",
+      "Marbella": "225",
+      "Mii": "1011",
+      "Ronda": "809",
+      "Tarraco": "1264",
+      "Terra": "650",
+      "Toledo": "98"
+    }
+  },
+  "SERES": {
+    "make_id": "1422",
+    "modelos": {
+      "Seres 3": "1524",
+      "Seres 5": "1541"
+    }
+  },
+  "SHINERAY": {
+    "make_id": "1443",
+    "modelos": {
+      "X30LEV": "1682"
+    }
+  },
+  "SKODA": {
+    "make_id": "40",
+    "modelos": {
+      "Citigo": "1034",
+      "Elroq": "1598",
+      "Enyaq": "1341",
+      "Enyaq Coupe": "1435",
+      "Fabia": "411",
+      "Favorit": "805",
+      "Felicia": "9",
+      "Forman": "108",
+      "Kamiq": "1296",
+      "Karoq": "1230",
+      "Kodiaq": "1212",
+      "Octavia": "350",
+      "Octavia Tour": "351",
+      "Pickup": "657",
+      "Praktik": "920",
+      "Rapid": "1053",
+      "Roomster": "604",
+      "S": "807",
+      "Scala": "1278",
+      "Scout": "610",
+      "Spaceback": "1093",
+      "Superb": "457",
+      "Yeti": "943"
+    }
+  },
+  "SKYWELL": {
+    "make_id": "1425",
+    "modelos": {
+      "BE11": "1549"
+    }
+  },
+  "SMART": {
+    "make_id": "41",
+    "modelos": {
+      "#1": "1446",
+      "#3": "1525",
+      "#5": "1633",
+      "cabrio": "327",
+      "city-coupé": "317",
+      "crossblade": "467",
+      "forfour": "524",
+      "fortwo": "318",
+      "roadster": "472",
+      "smart": "316"
+    }
+  },
+  "SPORTEQUIPE": {
+    "make_id": "1446",
+    "modelos": {
+      "Sportequipe 6 GT": "1702",
+      "Sportequipe 7 GTW": "1703",
+      "Sportequipe 8 GT": "1704"
+    }
+  },
+  "SSANGYONG": {
+    "make_id": "42",
+    "modelos": {
+      "Actyon": "601",
+      "Actyon Sports Pick Up": "719",
+      "Family": "22",
+      "K4D": "23",
+      "Korando": "21",
+      "Korando KJ": "274",
+      "Kyron": "572",
+      "Musso": "136",
+      "Rexton": "470",
+      "Rexton II": "528",
+      "Rodius": "569",
+      "Sports Pick Up": "708",
+      "Tivoli": "1141",
+      "Tivoli Grand": "1373",
+      "Torres": "1513",
+      "XLV": "1193"
+    }
+  },
+  "SUBARU": {
+    "make_id": "43",
+    "modelos": {
+      "1800": "804",
+      "B9 Tribeca": "593",
+      "BRZ": "1049",
+      "crosstrek": "1528",
+      "Forester": "310",
+      "G3X Justy": "523",
+      "Impreza": "63",
+      "Justy": "158",
+      "Legacy": "62",
+      "Levorg": "1170",
+      "Outback": "308",
+      "Solterra": "1481",
+      "SVX": "64",
+      "Trezia": "1001",
+      "Tribeca": "884",
+      "WRX STI": "981",
+      "XV": "1022"
+    }
+  },
+  "SUZUKI": {
+    "make_id": "44",
+    "modelos": {
+      "Across": "1338",
+      "Alto": "252",
+      "Baleno": "142",
+      "Carry": "653",
+      "Celerio": "1142",
+      "e Vitara": "1709",
+      "Grand Vitara": "320",
+      "Grand Vitara XL-7": "465",
+      "Ignis": "332",
+      "Jimny": "319",
+      "Kizashi": "978",
+      "Liana": "458",
+      "Maruti": "10",
+      "Samurai": "168",
+      "S-Cross": "1060",
+      "Splash": "892",
+      "Swace": "1349",
+      "Swift": "44",
+      "SX4": "589",
+      "SX4 S-Cross": "1087",
+      "Vitara": "133",
+      "Wagon R+": "304"
+    }
+  },
+  "SWM": {
+    "make_id": "1411",
+    "modelos": {
+      "G01": "1418",
+      "G01F": "1419",
+      "G03": "1687",
+      "G03F": "1603",
+      "G05": "1604"
+    }
+  },
+  "TALBOT": {
+    "make_id": "156",
+    "modelos": {
+      "Horizon": "802",
+      "Samba": "774",
+      "Solara": "801",
+      "Tagora": "800"
+    }
+  },
+  "TASSO": {
+    "make_id": "1342",
+    "modelos": {}
+  },
+  "TATA": {
+    "make_id": "45",
+    "modelos": {
+      "Aria": "1045",
+      "Grand Safari": "585",
+      "INDICA": "468",
+      "INDIGO": "538",
+      "Safari": "325",
+      "Sumo": "315",
+      "Telco": "147",
+      "Telcosport": "146",
+      "TL Pick Up": "676",
+      "Vista": "1032",
+      "Xenon": "1035",
+      "Xenon Pick Up": "874"
+    }
+  },
+  "TESLA": {
+    "make_id": "1354",
+    "modelos": {
+      "Model 3": "1262",
+      "Model S": "1171",
+      "Model X": "1172",
+      "Model Y": "1328"
+    }
+  },
+  "TIGER": {
+    "make_id": "1445",
+    "modelos": {
+      "Tiger Eight": "1698",
+      "Tiger Six": "1699"
+    }
+  },
+  "TOYOTA": {
+    "make_id": "46",
+    "modelos": {
+      "4Runner": "53",
+      "Auris": "273",
+      "Avensis": "305",
+      "Avensis Verso": "432",
+      "Aygo": "555",
+      "Aygo X Cross": "1396",
+      "BZ4X": "1478",
+      "Camry": "120",
+      "Carina E": "12",
+      "Celica": "134",
+      "C-HR": "1211",
+      "C-HR+": "1676",
+      "Corolla": "272",
+      "Corolla Cross": "1511",
+      "Corolla Sedan": "492",
+      "Corolla Verso": "481",
+      "Dyna": "718",
+      "GR86": "1464",
+      "GR Supra": "1352",
+      "GR Yaris": "1340",
+      "GT86": "1037",
+      "Hiace": "722",
+      "Highlander": "1351",
+      "Hilux": "599",
+      "iQ": "935",
+      "Land Cruiser": "256",
+      "Land Cruiser 100": "249",
+      "Land Cruiser 200": "877",
+      "Land Cruiser 80": "248",
+      "Land Cruiser 90": "257",
+      "Mirai": "1295",
+      "MR2": "328",
+      "Paseo": "247",
+      "Picnic": "321",
+      "Previa": "330",
+      "Prius": "331",
+      "Prius+": "1096",
+      "Proace": "1091",
+      "Proace City": "1312",
+      "Proace City Verso": "1313",
+      "Proace Max": "1590",
+      "Proace Verso": "1216",
+      "Rav4": "131",
+      "Supra": "150",
+      "Urban Cruiser": "937",
+      "Verso": "931",
+      "Yaris": "322",
+      "Yaris Cross": "1367",
+      "Yaris Verso": "326"
+    }
+  },
+  "TWIKE": {
+    "make_id": "1350",
+    "modelos": {}
+  },
+  "UMM": {
+    "make_id": "1324",
+    "modelos": {
+      "100": "28",
+      "121": "29"
+    }
+  },
+  "VAZ": {
+    "make_id": "1325",
+    "modelos": {
+      "214": "166",
+      "215": "391",
+      "110 Stawra": "379",
+      "111 Stawra": "390",
+      "112 Stawra": "450"
+    }
+  },
+  "VIDI": {
+    "make_id": "1343",
+    "modelos": {}
+  },
+  "VOLKSWAGEN": {
+    "make_id": "47",
+    "modelos": {
+      "Amarok": "979",
+      "Arteon": "1220",
+      "Beetle": "1005",
+      "Bora": "398",
+      "Caddy": "545",
+      "California": "724",
+      "Caravelle": "609",
+      "CC": "1020",
+      "Corrado": "152",
+      "Crafter": "682",
+      "Eos": "591",
+      "e-up!": "1304",
+      "Fox": "570",
+      "Golf": "89",
+      "Golf Plus": "568",
+      "Golf Sportsvan": "1120",
+      "Grand California": "1311",
+      "ID.3": "1325",
+      "ID.4": "1334",
+      "ID.5": "1388",
+      "ID.7": "1510",
+      "ID. BUZZ": "1428",
+      "Jetta": "399",
+      "LT": "652",
+      "Lupo": "361",
+      "Multivan": "522",
+      "New Beetle": "405",
+      "Passat": "83",
+      "Passat CC": "895",
+      "Phaeton": "460",
+      "Polo": "109",
+      "Santana": "752",
+      "Scirocco": "799",
+      "Sharan": "346",
+      "Taigo": "1384",
+      "Taro": "656",
+      "Tayron": "1607",
+      "T-Cross": "1265",
+      "Tiguan": "628",
+      "Tiguan Allspace": "1240",
+      "Touareg": "461",
+      "Touran": "462",
+      "Transporter": "636",
+      "T-Roc": "1232",
+      "up!": "1009",
+      "Vento": "95"
+    }
+  },
+  "VOLVO": {
+    "make_id": "48",
+    "modelos": {
+      "240": "796",
+      "340": "798",
+      "360": "797",
+      "440": "45",
+      "460": "179",
+      "480": "112",
+      "740": "795",
+      "760": "794",
+      "850": "46",
+      "940": "88",
+      "960": "180",
+      "C30": "551",
+      "C40": "1378",
+      "C70": "302",
+      "Classic": "229",
+      "EC40": "1548",
+      "ES90": "1627",
+      "EX30": "1500",
+      "EX40": "1544",
+      "EX60": "1691",
+      "EX90": "1470",
+      "S40": "284",
+      "S60": "436",
+      "S60 Cross Country": "1157",
+      "S70": "47",
+      "S80": "371",
+      "S90": "181",
+      "V40": "285",
+      "V40 Cross Country": "1050",
+      "V50": "286",
+      "V60": "977",
+      "V60 Cross Country": "1156",
+      "V70": "48",
+      "V70 Classic": "49",
+      "V70 XC": "300",
+      "V90": "182",
+      "V90 Cross Country": "1204",
+      "XC40": "1233",
+      "XC60": "900",
+      "XC70": "301",
+      "XC90": "486"
+    }
+  },
+  "VOYAH": {
+    "make_id": "1426",
+    "modelos": {
+      "Dream": "1562",
+      "Free": "1561"
+    }
+  },
+  "WARTBURG": {
+    "make_id": "186",
+    "modelos": {
+      "353": "792"
+    }
+  },
+  "XPENG": {
+    "make_id": "1435",
+    "modelos": {
+      "G6": "1593",
+      "G9": "1595",
+      "P7": "1594"
+    }
+  },
+  "YUDO": {
+    "make_id": "1421",
+    "modelos": {
+      "2": "1637",
+      "3": "1522",
+      "4": "1638",
+      "5": "1684",
+      "6": "1683"
+    }
+  },
+  "ZEST": {
+    "make_id": "1344",
+    "modelos": {}
+  },
+  "ZHIDOU": {
+    "make_id": "1418",
+    "modelos": {
+      "D2S": "1475"
+    }
+  }
+}

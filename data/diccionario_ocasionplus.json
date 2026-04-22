@@ -1,0 +1,889 @@
+{
+  "marcas": {
+    "Abarth": [
+      "500",
+      "500C"
+    ],
+    "Aixam": [
+      "Crossline",
+      "S9"
+    ],
+    "Alfa Romeo": [
+      "156",
+      "Giulia",
+      "Giulietta",
+      "Junior",
+      "MiTo",
+      "Spider",
+      "Stelvio",
+      "Tonale"
+    ],
+    "Aston Martin": [
+      "DB9"
+    ],
+    "Audi": [
+      "A1",
+      "A3",
+      "A4",
+      "A4 Allroad Quattro",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "Q2",
+      "Q3",
+      "Q3 Sportback",
+      "Q4 Sportback e-tron",
+      "Q4 e-tron",
+      "Q5",
+      "Q5 SPORTBACK",
+      "Q7",
+      "Q8",
+      "SQ5",
+      "TT"
+    ],
+    "BMW": [
+      "Serie 1",
+      "Serie 2",
+      "Serie 2 Active Tourer",
+      "Serie 2 Gran Tourer",
+      "Serie 3",
+      "Serie 4",
+      "Serie 5",
+      "Serie 6",
+      "Serie 7",
+      "Serie 8",
+      "X1",
+      "X2",
+      "X3",
+      "X4",
+      "X5",
+      "X6",
+      "Z3",
+      "Z4",
+      "i3",
+      "iX"
+    ],
+    "BYD": [
+      "Atto 3"
+    ],
+    "Benimar": [
+      "BENIVAN",
+      "Benivan",
+      "Benivan 112",
+      "Sport 323",
+      "Tessoro 440",
+      "Tessoro 496"
+    ],
+    "Bentley": [
+      "Bentayga"
+    ],
+    "Cadillac": [
+      "SRX"
+    ],
+    "Capron": [
+      "A70",
+      "Roadcar",
+      "T135"
+    ],
+    "Carthago": [
+      "Chic E line"
+    ],
+    "Challenger": [
+      "Sunset Edition",
+      "V114"
+    ],
+    "Chevrolet": [
+      "Aveo",
+      "Captiva",
+      "Cruze",
+      "Epica",
+      "Lacetti",
+      "Malibu",
+      "Matiz",
+      "Orlando"
+    ],
+    "Chrysler": [
+      "Sebring",
+      "Voyager"
+    ],
+    "Citroën": [
+      "AMI",
+      "Berlingo",
+      "C-Elysee",
+      "C-Elysée",
+      "C-Zero",
+      "C1",
+      "C2",
+      "C3",
+      "C3 Aircross",
+      "C3 Origin",
+      "C3 Picasso",
+      "C4",
+      "C4 Aircross",
+      "C4 Cactus",
+      "C4 Picasso",
+      "C4 Sedán",
+      "C4 Spacetourer",
+      "C4 X",
+      "C5",
+      "C5 Aircross",
+      "C5 Aircross Hybrid",
+      "C5 X",
+      "C8",
+      "DS3",
+      "DS4",
+      "DS5",
+      "Grand C4 Picasso",
+      "Grand C4 Spacetourer",
+      "Ilusion",
+      "Jumper",
+      "Jumpy",
+      "Nemo",
+      "Saxo",
+      "Spacetourer",
+      "Xsara",
+      "Xsara Picasso",
+      "ë-Berlingo",
+      "ë-C4"
+    ],
+    "Cupra": [
+      "Ateca",
+      "Formentor",
+      "León",
+      "Terramar"
+    ],
+    "DFSK": [
+      "500",
+      "580",
+      "E5",
+      "Fengon 5"
+    ],
+    "DR AUTOMOBILES": [
+      "DR 3",
+      "DR 4.0",
+      "DR 5.0",
+      "DR4"
+    ],
+    "DS": [
+      "DS 3",
+      "DS 3 Crossback",
+      "DS 4",
+      "DS 4 Crossback",
+      "DS 5",
+      "DS 7",
+      "DS 7 Crossback",
+      "DS 7 Crossback E-Tense",
+      "DS 9",
+      "DS3 Crossback"
+    ],
+    "Dacia": [
+      "Dokker",
+      "Duster",
+      "Jogger",
+      "Lodgy",
+      "Logan",
+      "Sandero"
+    ],
+    "Daewoo": [
+      "Kalos"
+    ],
+    "Dethleffs": [
+      "Globeus",
+      "Trend T"
+    ],
+    "EBRO": [
+      "S400"
+    ],
+    "Elnagh": [
+      "T-LOFT 530"
+    ],
+    "Etrusco": [
+      "V5900"
+    ],
+    "Ferrari": [
+      "California"
+    ],
+    "Fiat": [
+      "124 Spider",
+      "500",
+      "500 Electrico",
+      "500C",
+      "500L",
+      "500X",
+      "600",
+      "Doblò",
+      "Doblò Cargo",
+      "Doblò Panorama",
+      "Ducato",
+      "Fiorino",
+      "Freemont",
+      "Linea",
+      "Panda",
+      "Punto",
+      "Punto EVO",
+      "Qubo",
+      "Scudo",
+      "Talento",
+      "Tipo"
+    ],
+    "Fiat Rimor": [
+      "Seal 7"
+    ],
+    "Ford": [
+      "B-MAX",
+      "C-Max",
+      "EcoSport",
+      "Edge",
+      "Escort",
+      "Fiesta",
+      "Focus",
+      "Focus C-MAX",
+      "Galaxy",
+      "Grand C-Max",
+      "Grand Tourneo Connect",
+      "Ka",
+      "Ka+",
+      "Kuga",
+      "Mondeo",
+      "Mustang",
+      "Mustang Mach-E",
+      "Puma",
+      "Ranger",
+      "S-MAX",
+      "Tourneo Connect",
+      "Tourneo Courier",
+      "Tourneo Custom",
+      "Transit",
+      "Transit Connect",
+      "Transit Courier",
+      "Transit Custom"
+    ],
+    "GiottiLine": [
+      "Sienna 395"
+    ],
+    "Honda": [
+      "CR-V",
+      "Civic",
+      "HR-V",
+      "Jazz"
+    ],
+    "Hymer": [
+      "Ayers Rock",
+      "C 662",
+      "C512"
+    ],
+    "Hyundai": [
+      "Accent",
+      "Atos",
+      "Atos Prime",
+      "Bayon",
+      "Elantra",
+      "Getz",
+      "H-1",
+      "H-1 Travel",
+      "IONIQ",
+      "IONIQ 5",
+      "Kona",
+      "Santa Fe",
+      "Sonata",
+      "Staria",
+      "Trajet",
+      "Tucson",
+      "i10",
+      "i20",
+      "i20 Active",
+      "i30",
+      "i40",
+      "ix20",
+      "ix35"
+    ],
+    "Ilusion": [
+      "XMK"
+    ],
+    "Ineos": [
+      "Grenadier"
+    ],
+    "Infiniti": [
+      "EX",
+      "FX",
+      "Q30",
+      "Q50",
+      "QX70"
+    ],
+    "Iveco": [
+      "Daily"
+    ],
+    "JAECOO": [
+      "7"
+    ],
+    "Jaguar": [
+      "E-Pace",
+      "F-Pace",
+      "S-Type",
+      "Serie XK",
+      "X-Type",
+      "XE",
+      "XF",
+      "i-Pace"
+    ],
+    "Jeep": [
+      "Avenger",
+      "Cherokee",
+      "Compass",
+      "Grand Cherokee",
+      "Renegade",
+      "Wrangler",
+      "Wrangler Unlimited"
+    ],
+    "KGM": [
+      "Korando",
+      "Tivoli",
+      "Torres"
+    ],
+    "KIA": [
+      "Carens",
+      "Carnival",
+      "Ceed",
+      "Ceed Sportswagon",
+      "Ceed Tourer",
+      "Cerato",
+      "EV6",
+      "Niro",
+      "Optima",
+      "Picanto",
+      "ProCeed",
+      "Rio",
+      "Sorento",
+      "Soul",
+      "Sportage",
+      "Stonic",
+      "Venga",
+      "XCeed",
+      "e-Niro"
+    ],
+    "Lancia": [
+      "Delta",
+      "Voyager",
+      "Ypsilon"
+    ],
+    "Land Rover": [
+      "Defender",
+      "Discovery",
+      "Discovery 4",
+      "Discovery Sport",
+      "Freelander",
+      "Range Rover",
+      "Range Rover Evoque",
+      "Range Rover Sport",
+      "Range Rover Velar"
+    ],
+    "Lexus": [
+      "CT",
+      "ES",
+      "GS",
+      "IS",
+      "LBX",
+      "NX",
+      "RC",
+      "RX",
+      "RZ",
+      "UX"
+    ],
+    "Ligier": [
+      "JS50",
+      "X-TOO S"
+    ],
+    "Lynk & Co": [
+      "01"
+    ],
+    "MG": [
+      "HS",
+      "MG3",
+      "MG3 Hybrid+",
+      "MG4",
+      "ZS",
+      "ZS EV",
+      "eHS"
+    ],
+    "Maserati": [
+      "Ghibli",
+      "Levante"
+    ],
+    "Mazda": [
+      "CX-3",
+      "CX-30",
+      "CX-5",
+      "CX-60",
+      "CX-7",
+      "CX-80",
+      "MX-30",
+      "MX-5",
+      "Mazda2",
+      "Mazda3",
+      "Mazda6",
+      "Premacy",
+      "RX-8"
+    ],
+    "McLouis": [
+      "Steel S 35G MC4"
+    ],
+    "Mercedes": [
+      "Actros",
+      "CLA",
+      "CLE",
+      "Citan",
+      "Clase A",
+      "Clase B",
+      "Clase C",
+      "Clase CL",
+      "Clase E",
+      "Clase GLC",
+      "Clase GLE",
+      "Clase GLE Coupé",
+      "Clase GLK",
+      "Clase M",
+      "Clase S",
+      "Clase SL",
+      "Clase SLK",
+      "Clase T",
+      "Clase V",
+      "Clase X",
+      "EQA",
+      "GLA",
+      "GLB",
+      "GLC",
+      "GLC Coupé",
+      "GLE",
+      "GLE Coupé",
+      "Mercedes-AMG GT",
+      "Sprinter",
+      "Vito"
+    ],
+    "Mini": [
+      "CLUBMAN",
+      "COOPER",
+      "Countryman",
+      "MINI",
+      "PACEMAN"
+    ],
+    "Mitsubishi": [
+      "ASX",
+      "Carisma",
+      "Colt",
+      "Eclipse Cross",
+      "L200",
+      "Montero",
+      "Outlander",
+      "Space Star"
+    ],
+    "Nissan": [
+      "370Z",
+      "Cabstar",
+      "Interstar",
+      "JUKE",
+      "LEAF",
+      "Micra",
+      "NOTE",
+      "NV200",
+      "NV200 EVALIA",
+      "NV300",
+      "NV400",
+      "Navara",
+      "PULSAR",
+      "Pathfinder",
+      "Pixo",
+      "Primastar",
+      "QASHQAI",
+      "QASHQAI+2",
+      "Townstar",
+      "X-TRAIL"
+    ],
+    "OMODA": [
+      "5"
+    ],
+    "Opel": [
+      "Adam",
+      "Agila",
+      "Antara",
+      "Astra",
+      "Cabrio",
+      "Combo",
+      "Combo Life",
+      "Corsa",
+      "Corsa-e",
+      "Crossland",
+      "Crossland X",
+      "GTC",
+      "Grandland",
+      "Grandland PHEV",
+      "Grandland X",
+      "Insignia",
+      "Karl",
+      "Meriva",
+      "Mokka",
+      "Mokka X",
+      "Movano",
+      "Tigra",
+      "Vectra",
+      "Vivaro",
+      "Zafira",
+      "Zafira Life",
+      "Zafira Tourer"
+    ],
+    "Peugeot": [
+      "1007",
+      "108",
+      "2008",
+      "206",
+      "207",
+      "208",
+      "3008",
+      "3008 Hybrid",
+      "307",
+      "307 SW",
+      "308",
+      "407",
+      "408",
+      "5008",
+      "5008 Hybrid",
+      "508",
+      "508 Hybrid",
+      "807",
+      "Boxer",
+      "Expert",
+      "Partner",
+      "Rifter",
+      "Traveller",
+      "e-208",
+      "ion"
+    ],
+    "Pilote": [
+      "G680XTP"
+    ],
+    "Porsche": [
+      "718",
+      "911",
+      "Boxster",
+      "Cayenne",
+      "Cayenne Coupé",
+      "Macan",
+      "Panamera",
+      "Taycan"
+    ],
+    "Renault": [
+      "5 E-Tech",
+      "Arkana",
+      "Austral",
+      "Captur",
+      "Clio",
+      "Clio 4",
+      "Espace",
+      "Express",
+      "Grand Modus",
+      "Grand Scénic",
+      "Kadjar",
+      "Kangoo Combi",
+      "Kangoo Furgón",
+      "Koleos",
+      "Laguna",
+      "Master",
+      "Megane",
+      "Megane E-Tech",
+      "Modus",
+      "Mégane",
+      "Rafale",
+      "Scénic",
+      "Symbioz",
+      "Talisman",
+      "Trafic",
+      "Twingo",
+      "ZOE"
+    ],
+    "Rimor": [
+      "Seal 9"
+    ],
+    "SWM": [
+      "G01",
+      "G05"
+    ],
+    "Saab": [
+      "9-3"
+    ],
+    "Seat": [
+      "Alhambra",
+      "Altea",
+      "Altea XL",
+      "Arona",
+      "Ateca",
+      "Córdoba",
+      "Ibiza",
+      "León",
+      "Mii",
+      "Tarraco",
+      "Toledo"
+    ],
+    "Skoda": [
+      "Citigo",
+      "Fabia",
+      "Kamiq",
+      "Karoq",
+      "Kodiaq",
+      "Octavia",
+      "Rapid",
+      "Scala",
+      "Scout",
+      "Spaceback",
+      "Superb",
+      "Yeti"
+    ],
+    "Smart": [
+      "forfour",
+      "fortwo"
+    ],
+    "SsangYong": [
+      "Actyon",
+      "Korando",
+      "Kyron",
+      "Musso",
+      "Rexton",
+      "Rodius",
+      "Tivoli",
+      "Tivoli Grand",
+      "Torres",
+      "XLV"
+    ],
+    "Sterckeman": [
+      "Emeraude 480"
+    ],
+    "Subaru": [
+      "Forester",
+      "Impreza",
+      "LEVORG",
+      "Levorg",
+      "Outback",
+      "XV"
+    ],
+    "Suzuki": [
+      "Grand Vitara",
+      "Ignis",
+      "Jimny",
+      "S-Cross",
+      "SX4",
+      "SX4 S-Cross",
+      "Swift",
+      "Vitara"
+    ],
+    "Talbot": [
+      "150 S"
+    ],
+    "Tec": [
+      "I-TEC"
+    ],
+    "Tesla": [
+      "Model 3",
+      "Model S",
+      "Model Y"
+    ],
+    "Toyota": [
+      "Auris",
+      "Avensis",
+      "Aygo",
+      "Aygo X Cross",
+      "C-HR",
+      "Corolla",
+      "Corolla Cross",
+      "Corolla Sedán",
+      "GR Yaris",
+      "Hilux",
+      "Land Cruiser",
+      "Prius+",
+      "Proace",
+      "Proace City",
+      "Proace City Verso",
+      "Proace Verso",
+      "Rav4",
+      "Urban Cruiser",
+      "Verso",
+      "Yaris",
+      "Yaris Cross"
+    ],
+    "Volkswagen": [
+      "Amarok",
+      "Arteon",
+      "Beetle",
+      "CC",
+      "Caddy",
+      "California",
+      "Caravelle",
+      "Crafter",
+      "Eos",
+      "Golf",
+      "Golf Sportsvan",
+      "ID.3",
+      "ID.4",
+      "Jetta",
+      "Multivan",
+      "New Beetle",
+      "Passat",
+      "Phaeton",
+      "Polo",
+      "Scirocco",
+      "Sharan",
+      "T-Cross",
+      "T-Roc",
+      "Taigo",
+      "Tayron",
+      "Tiguan",
+      "Tiguan Allspace",
+      "Touareg",
+      "Touran",
+      "Transporter"
+    ],
+    "Volvo": [
+      "EX30",
+      "S40",
+      "S60",
+      "V40",
+      "V40 Cross Country",
+      "V60",
+      "V60 Cross Country",
+      "V90",
+      "V90 Cross Country",
+      "XC40",
+      "XC60",
+      "XC90"
+    ],
+    "Walden": [
+      "Shangling"
+    ],
+    "Weinsberg": [
+      "R47"
+    ],
+    "Westfalia": [
+      "Club Joker City"
+    ],
+    "Zhidou": [
+      "D2S"
+    ]
+  },
+  "provincias": [
+    "Albacete",
+    "Alicante",
+    "Almería",
+    "Asturias",
+    "Badajoz",
+    "Barcelona",
+    "Cantabria",
+    "Castellón",
+    "Ciudad Real",
+    "Cáceres",
+    "Cádiz",
+    "Córdoba",
+    "Gipuzkoa",
+    "Girona",
+    "Granada",
+    "Huelva",
+    "Jaén",
+    "La Coruña",
+    "Las Palmas",
+    "Madrid",
+    "Murcia",
+    "Málaga",
+    "Navarra",
+    "Ourense",
+    "Pontevedra",
+    "Sevilla",
+    "Toledo",
+    "Valencia",
+    "Vizcaya",
+    "Zaragoza",
+    "Álava"
+  ],
+  "markets": [
+    "canarias",
+    "peninsula"
+  ],
+  "combustibles": [
+    "Diésel",
+    "Eléctrico",
+    "GLP",
+    "GNC",
+    "Gasolina",
+    "Híbrido",
+    "Híbrido Enchufable"
+  ],
+  "transmisiones": [
+    "AUTO",
+    "MANUAL"
+  ],
+  "carrocerias": [
+    "BERLINA",
+    "CABRIO_DESCAPOTABLE",
+    "CAMPER",
+    "COMPACTO",
+    "COUPE",
+    "FAMILIAR",
+    "INDUSTRIAL",
+    "MONOVOLUMEN",
+    "PICKUP",
+    "TODOTERRENO"
+  ],
+  "etiquetas_ambientales": [
+    "0_EMISIONES",
+    "B",
+    "C",
+    "ECO"
+  ],
+  "total_vehiculos": 13444,
+  "filtros_api": {
+    "brand": "Title case, case-sensitive (ej: 'Fiat', 'BMW', 'Mercedes-Benz')",
+    "model": "IGNORADO por la API — filtrar localmente",
+    "market": "canarias | peninsula",
+    "province": "Nombre exacto con acentos (ej: 'Las Palmas', 'Cádiz')",
+    "fuel": "Con acentos (ej: 'Gasolina', 'Diésel', 'Eléctrico', 'Híbrido')",
+    "transmission": "AUTO | MANUAL (case-insensitive)",
+    "km": "IGNORADO — filtrar localmente",
+    "year": "IGNORADO — filtrar localmente"
+  },
+  "provincias_api": {
+    "Madrid": 2706,
+    "Barcelona": 1585,
+    "Sevilla": 845,
+    "Valencia": 816,
+    "Alicante": 590,
+    "Cádiz": 460,
+    "Málaga": 441,
+    "Ciudad Real": 393,
+    "Granada": 382,
+    "Girona": 381,
+    "Navarra": 379,
+    "Zaragoza": 350,
+    "Córdoba": 349,
+    "Gipuzkoa": 331,
+    "Murcia": 328,
+    "Castellón": 316,
+    "Badajoz": 262,
+    "Almería": 242,
+    "Toledo": 240,
+    "Las Palmas": 193,
+    "Pontevedra": 180,
+    "Jaén": 143,
+    "Asturias": 142,
+    "Ourense": 141,
+    "Cantabria": 135,
+    "Huelva": 120,
+    "Albacete": 116,
+    "Álava": 100,
+    "Cáceres": 89
+  },
+  "combustibles_api": {
+    "Gasolina": 6159,
+    "Diésel": 4330,
+    "Eléctrico": 156,
+    "Híbrido": 2246,
+    "Híbrido Enchufable": 451,
+    "GLP": 97,
+    "GNC": 19
+  }
+}

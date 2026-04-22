@@ -1,0 +1,689 @@
+{
+  "marcas": {
+    "VOLKSWAGEN": {
+      "id": "1",
+      "modelos": [
+        "VOLKSWAGEN Tiguan",
+        "VOLKSWAGEN ID.5",
+        "VOLKSWAGEN ID.3",
+        "VOLKSWAGEN Polo",
+        "VOLKSWAGEN ID.4",
+        "VOLKSWAGEN ID.7",
+        "VOLKSWAGEN Passat Variant",
+        "VOLKSWAGEN T-Roc Cabrio",
+        "VOLKSWAGEN Golf",
+        "VOLKSWAGEN T-Roc",
+        "VOLKSWAGEN T-Cross",
+        "VOLKSWAGEN Taigo",
+        "VOLKSWAGEN e-up!",
+        "VOLKSWAGEN Arteon"
+      ]
+    },
+    "VW COMERCIALES": {
+      "id": "3",
+      "modelos": [
+        "VW COMERCIALES Caddy",
+        "VW COMERCIALES Transporter",
+        "VW COMERCIALES Caravelle",
+        "VW COMERCIALES California"
+      ]
+    },
+    "AUDI": {
+      "id": "2",
+      "modelos": [
+        "AUDI e-tron",
+        "AUDI Q5",
+        "AUDI Q4",
+        "AUDI A5",
+        "AUDI Q6",
+        "AUDI Q3",
+        "AUDI A3",
+        "AUDI A1",
+        "AUDI Q8",
+        "AUDI Q2",
+        "AUDI R8",
+        "AUDI Audi R8 Coupé"
+      ]
+    },
+    "SKODA": {
+      "id": "4",
+      "modelos": [
+        "SKODA Fabia",
+        "SKODA Enyaq",
+        "SKODA Kamiq",
+        "SKODA Kodiaq",
+        "SKODA Karoq",
+        "SKODA Elroq",
+        "SKODA Scala"
+      ]
+    },
+    "DUCATI": {
+      "id": "8",
+      "modelos": [
+        "DUCATI Scrambler",
+        "DUCATI Hypermotard",
+        "DUCATI Streetfighter",
+        "DUCATI Monster ",
+        "DUCATI Desert X",
+        "DUCATI Streetfighter V4"
+      ]
+    },
+    "HYUNDAI": {
+      "id": "7",
+      "modelos": [
+        "HYUNDAI Kona",
+        "HYUNDAI Ioniq",
+        "HYUNDAI Ioniq 5",
+        "HYUNDAI Ioniq 6",
+        "HYUNDAI Santa Fe",
+        "HYUNDAI i30",
+        "HYUNDAI Bayon",
+        "HYUNDAI Staria",
+        "HYUNDAI i10",
+        "HYUNDAI i20",
+        "HYUNDAI Tucson",
+        "HYUNDAI Inster"
+      ]
+    },
+    "HONDA": {
+      "id": "9",
+      "modelos": [
+        "HONDA ZR-V",
+        "HONDA CR-V",
+        "HONDA HR-V"
+      ]
+    },
+    "HONDA MOTOS": {
+      "id": "6",
+      "modelos": [
+        "HONDA MOTOS NT1100",
+        "HONDA MOTOS SH 125",
+        "HONDA MOTOS SH 350",
+        "HONDA MOTOS Africa Twin",
+        "HONDA MOTOS CB750 Hornet",
+        "HONDA MOTOS ADV350",
+        "HONDA MOTOS GB350S",
+        "HONDA MOTOS CB650R",
+        "HONDA MOTOS XL750 Transalp",
+        "HONDA MOTOS CB1000 Hornet",
+        "HONDA MOTOS NSC110",
+        "HONDA MOTOS CB125R",
+        "HONDA MOTOS CB500F",
+        "HONDA MOTOS CBR600RR",
+        "HONDA MOTOS NC750X",
+        "HONDA MOTOS CBR650R E-Clutch",
+        "HONDA MOTOS Forza 750",
+        "HONDA MOTOS Monkey MY25",
+        "HONDA MOTOS MSX125",
+        "HONDA MOTOS Forza 125 MY23",
+        "HONDA MOTOS PCX"
+      ]
+    },
+    "CITROËN": {
+      "id": "5",
+      "modelos": [
+        "CITROËN C3",
+        "CITROËN C4",
+        "CITROËN Berlingo",
+        "CITROËN C5",
+        "CITROËN Jumpy",
+        "CITROËN C1",
+        "CITROËN DS3",
+        "CITROËN DS3 ",
+        "CITROËN MY AMI",
+        "CITROËN DS4"
+      ]
+    },
+    "SILENCE": {
+      "id": "43",
+      "modelos": [
+        "SILENCE S02",
+        "SILENCE S04"
+      ]
+    },
+    "CUPRA": {
+      "id": "60",
+      "modelos": [
+        "CUPRA "
+      ]
+    },
+    "BMW": {
+      "id": "17",
+      "modelos": [
+        "BMW X5"
+      ]
+    },
+    "FIAT": {
+      "id": "61",
+      "modelos": [
+        "FIAT 500L",
+        "FIAT Talento"
+      ]
+    },
+    "APRILIA": {
+      "id": "67",
+      "modelos": [
+        "APRILIA RS 125"
+      ]
+    },
+    "DACIA": {
+      "id": "59",
+      "modelos": [
+        "DACIA DUSTER",
+        "DACIA Jogger"
+      ]
+    },
+    "BENELLI": {
+      "id": "76",
+      "modelos": [
+        "BENELLI 502"
+      ]
+    },
+    "MOTO GUZZI": {
+      "id": "86",
+      "modelos": []
+    },
+    "E-BIKE": {
+      "id": "63",
+      "modelos": []
+    },
+    "FORD": {
+      "id": "41",
+      "modelos": [
+        "FORD Fiesta"
+      ]
+    },
+    "HARLEY DAVIDSON": {
+      "id": "80",
+      "modelos": []
+    },
+    "INFINITI": {
+      "id": "75",
+      "modelos": []
+    },
+    "SUBARU": {
+      "id": "85",
+      "modelos": []
+    },
+    "VESPA": {
+      "id": "89",
+      "modelos": [
+        "VESPA GTS"
+      ]
+    },
+    "MITT": {
+      "id": "87",
+      "modelos": []
+    },
+    "VOGE": {
+      "id": "88",
+      "modelos": [
+        "VOGE AC",
+        "VOGE SR1 125"
+      ]
+    },
+    "ZONTES": {
+      "id": "79",
+      "modelos": []
+    },
+    "QJMOTOR": {
+      "id": "81",
+      "modelos": []
+    },
+    "WOTTAN": {
+      "id": "84",
+      "modelos": []
+    },
+    "BRP CAN-AM": {
+      "id": "83",
+      "modelos": []
+    },
+    "MINAUTO": {
+      "id": "82",
+      "modelos": []
+    },
+    "JAGUAR": {
+      "id": "64",
+      "modelos": [
+        "JAGUAR E PACE"
+      ]
+    },
+    "JEEP": {
+      "id": "31",
+      "modelos": [
+        "JEEP Wrangler"
+      ]
+    },
+    "DS": {
+      "id": "78",
+      "modelos": [
+        "DS DS3",
+        "DS DS4",
+        "DS DS 4"
+      ]
+    },
+    "KAWASAKI": {
+      "id": "69",
+      "modelos": [
+        "KAWASAKI Z900"
+      ]
+    },
+    "KEEWAY": {
+      "id": "65",
+      "modelos": []
+    },
+    "KYMCO": {
+      "id": "74",
+      "modelos": [
+        "KYMCO Xciting Vs 400"
+      ]
+    },
+    "MV AUGUSTA": {
+      "id": "77",
+      "modelos": [
+        "MV AUGUSTA Brutale 800"
+      ]
+    },
+    "KIA": {
+      "id": "38",
+      "modelos": [
+        "KIA Sportage",
+        "KIA NIRO",
+        "KIA Niro"
+      ]
+    },
+    "KTM": {
+      "id": "70",
+      "modelos": [
+        "KTM Duke 390"
+      ]
+    },
+    "MACBOR": {
+      "id": "73",
+      "modelos": []
+    },
+    "LAND ROVER": {
+      "id": "48",
+      "modelos": []
+    },
+    "LEXUS": {
+      "id": "49",
+      "modelos": []
+    },
+    "MAN": {
+      "id": "50",
+      "modelos": []
+    },
+    "MAZDA": {
+      "id": "34",
+      "modelos": [
+        "MAZDA Mazda 2"
+      ]
+    },
+    "MERCEDES": {
+      "id": "53",
+      "modelos": []
+    },
+    "MERCEDES BENZ": {
+      "id": "51",
+      "modelos": [
+        "MERCEDES BENZ Clase G"
+      ]
+    },
+    "MINI": {
+      "id": "27",
+      "modelos": [
+        "MINI 5 Puertas"
+      ]
+    },
+    "MITSUBISHI": {
+      "id": "12",
+      "modelos": [
+        "MITSUBISHI Eclipse Cross"
+      ]
+    },
+    "MV AGUSTA": {
+      "id": "62",
+      "modelos": []
+    },
+    "NISSAN": {
+      "id": "40",
+      "modelos": [
+        "NISSAN Qashqai",
+        "NISSAN Leaf",
+        "NISSAN Juke"
+      ]
+    },
+    "OPEL": {
+      "id": "44",
+      "modelos": [
+        "OPEL Mokka",
+        "OPEL Corsa",
+        "OPEL Grandland",
+        "OPEL Crossland X",
+        "OPEL Combo Life",
+        "OPEL Combo"
+      ]
+    },
+    "PEUGEOT": {
+      "id": "28",
+      "modelos": [
+        "PEUGEOT 208",
+        "PEUGEOT "
+      ]
+    },
+    "PIAGGIO": {
+      "id": "71",
+      "modelos": [
+        "PIAGGIO Vespa GTS 300"
+      ]
+    },
+    "PORSCHE": {
+      "id": "68",
+      "modelos": []
+    },
+    "SEAT": {
+      "id": "37",
+      "modelos": []
+    },
+    "SMART": {
+      "id": "66",
+      "modelos": []
+    },
+    "SSANGYONG": {
+      "id": "58",
+      "modelos": []
+    },
+    "SUZUKI": {
+      "id": "35",
+      "modelos": []
+    },
+    "SYM": {
+      "id": "72",
+      "modelos": []
+    },
+    "TOYOTA": {
+      "id": "29",
+      "modelos": [
+        "TOYOTA Yaris Cross",
+        "TOYOTA Yaris"
+      ]
+    },
+    "RENAULT": {
+      "id": "36",
+      "modelos": [
+        "RENAULT Captur",
+        "RENAULT Twingo",
+        "RENAULT "
+      ]
+    },
+    "TRIUMPH": {
+      "id": "30",
+      "modelos": [
+        "TRIUMPH Tiger 900",
+        "TRIUMPH Street Triple 765 R",
+        "TRIUMPH Trident",
+        "TRIUMPH Bonneville T120"
+      ]
+    },
+    "VOLVO": {
+      "id": "47",
+      "modelos": []
+    },
+    "YAMAHA": {
+      "id": "33",
+      "modelos": []
+    }
+  },
+  "islas": {
+    "Tenerife": "/tenerife/",
+    "Las Palmas": "/las-palmas/",
+    "Fuerteventura": "/fuerteventura/",
+    "Lanzarote": "/lanzarote/",
+    "La Palma": "/la-palma/"
+  },
+  "nota": "No tiene API pública. Filtros dentro de sesión Playwright.",
+  "url_base": "https://domingoalonsoocasion.com/ocasion/",
+  "tipos_de_coche": [
+    {
+      "label": "9 Plazas",
+      "value": "12"
+    },
+    {
+      "label": "7 Plazas",
+      "value": "11"
+    },
+    {
+      "label": "Moto",
+      "value": "9"
+    },
+    {
+      "label": "Berlina",
+      "value": "1"
+    },
+    {
+      "label": "Familiar",
+      "value": "2"
+    },
+    {
+      "label": "Coupé",
+      "value": "3"
+    },
+    {
+      "label": "Monovolumen",
+      "value": "4"
+    },
+    {
+      "label": "SUV",
+      "value": "5"
+    },
+    {
+      "label": "Cabrio",
+      "value": "6"
+    },
+    {
+      "label": "Compacto",
+      "value": "7"
+    },
+    {
+      "label": "Furgoneta",
+      "value": "8"
+    },
+    {
+      "label": "Camión",
+      "value": "10"
+    }
+  ],
+  "tags_de_vehiculos": [
+    {
+      "label": "Plan MoveOn⚡",
+      "value": "19"
+    },
+    {
+      "label": "APPROVED",
+      "value": "11"
+    },
+    {
+      "label": "Plan MOVES",
+      "value": "9"
+    },
+    {
+      "label": "Ocasión",
+      "value": "1"
+    },
+    {
+      "label": "KM 0",
+      "value": "2"
+    }
+  ],
+  "ubicaciones": [
+    {
+      "label": "Tenerife (Tacoronte ) - Exposición Domingo Alonso Ocasión",
+      "value": "55"
+    },
+    {
+      "label": "Gran Canaria (Las Palmas-Miller) Domingo Alonso Ocasión Miller ( Exposicion Hyundai )",
+      "value": "54"
+    },
+    {
+      "label": "Gran Canaria (Las Palmas-Miller) Domingo Alonso Ocasión Miller ( Exposicion Hyundai )",
+      "value": "14"
+    },
+    {
+      "label": "Gran Canaria ( Las Palmas - Miller Bajo  ) Domingo Alonso Ocasión Miller ( Exposición Vokswagen-Audi-Skoda )",
+      "value": "1"
+    },
+    {
+      "label": "Gran Canaria - Domingo Alonso Ocasión Vecindario",
+      "value": "56"
+    },
+    {
+      "label": "Gran Canaria - ( Telde ) Domingo Alonso Ocasión Telde",
+      "value": "39"
+    },
+    {
+      "label": "Gran Canaria ( Las Palmas - Sebadal ) Domingo Alonso Ocasión Sebadal ",
+      "value": "45"
+    },
+    {
+      "label": "Gran Canaria ( Maspalomas) Domingo Alonso Ocasión Tablero",
+      "value": "49"
+    },
+    {
+      "label": "Gran Canaria (Miller Bajo-Las Palmas) Spoticar ( Exposición Citroen AUTOLACA )",
+      "value": "43"
+    },
+    {
+      "label": "Gran Canaria ( Playa del Inglés ) Domingo Alonso Ocasión Playa del Inglés",
+      "value": "48"
+    },
+    {
+      "label": "Gran Canaria - Domingo Alonso Ocasión Zona Norte (Arucas, Guía, Gáldar)",
+      "value": "40"
+    },
+    {
+      "label": "Tenerife ( Santa Cruz - Mayorazgo ) Domingo Alonso Ocasión Mayorazgo",
+      "value": "47"
+    },
+    {
+      "label": "Tenerife (Tacoronte ) - Exposición Domingo Alonso Ocasión",
+      "value": "13"
+    },
+    {
+      "label": "Tenerife (La Laguna) Spoticar ( Exposición Citroen AUTOLACA )",
+      "value": "53"
+    },
+    {
+      "label": "Tenerife - Domingo Alonso Ocasión Guamasa",
+      "value": "2"
+    },
+    {
+      "label": "Tenerife Domingo Alonso Ocasión ICOD",
+      "value": "46"
+    },
+    {
+      "label": "Tenerife ( La Laguna -TACO ) Exposición VW Hatusa ",
+      "value": "44"
+    },
+    {
+      "label": "Lanzarote - Domingo Alonso Ocasión Playa Honda y Arrecife",
+      "value": "3"
+    },
+    {
+      "label": "Fuerteventura Domingo Alonso Ocasión - Pto Rosario ",
+      "value": "5"
+    },
+    {
+      "label": "La Palma Domingo Alonso Ocasión Los Guinchos - Exposición VW",
+      "value": "4"
+    }
+  ],
+  "get_info__distintivos": [
+    {
+      "label": "Etiqueta C (verde)",
+      "value": "C"
+    },
+    {
+      "label": "Etiqueta CERO (azul)",
+      "value": "0_EMISIONES"
+    },
+    {
+      "label": "Etiqueta ECO (azul/verde)",
+      "value": "ECO"
+    },
+    {
+      "label": "Sin información",
+      "value": "SIN_DATOS"
+    }
+  ],
+  "get_info__puertas": [
+    {
+      "label": "6 Puertas",
+      "value": "6 Puertas"
+    },
+    {
+      "label": "2 Puertas",
+      "value": "2 Puertas"
+    },
+    {
+      "label": "3 Puertas",
+      "value": "3 Puertas"
+    },
+    {
+      "label": "4 Puertas",
+      "value": "4 Puertas"
+    },
+    {
+      "label": "5 Puertas",
+      "value": "5 Puertas"
+    }
+  ],
+  "get_info__cambio": [
+    {
+      "label": "Automática",
+      "value": "Automática"
+    },
+    {
+      "label": "Manual",
+      "value": "Manual"
+    }
+  ],
+  "get_info__combustible": [
+    {
+      "label": "Hidrógeno",
+      "value": "Hidrógeno"
+    },
+    {
+      "label": "Ecofuel",
+      "value": "Ecofuel"
+    },
+    {
+      "label": "Autogas",
+      "value": "Autogas"
+    },
+    {
+      "label": "Gas Natural",
+      "value": "Gas Natural"
+    },
+    {
+      "label": "Diesel",
+      "value": "Diesel"
+    },
+    {
+      "label": "Híbrido",
+      "value": "Híbrido"
+    },
+    {
+      "label": "Híbrido Enchufable",
+      "value": "Híbrido Enchufable"
+    },
+    {
+      "label": "Eléctrico",
+      "value": "Eléctrico"
+    },
+    {
+      "label": "Gasolina",
+      "value": "Gasolina"
+    }
+  ]
+}
